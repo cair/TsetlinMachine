@@ -64,7 +64,7 @@ cdef class MultiClassTsetlinMachine:
 		self.s = s
 		self.threshold = threshold
 
-		# The state of each Tsetlin Automaton is tored here. The automata are randomly initialized to either 'number_of_states' or 'number_of_states' + 1.
+		# The state of each Tsetlin Automaton is stored here. The automata are randomly initialized to either 'number_of_states' or 'number_of_states' + 1.
 		self.ta_state = np.random.choice([self.number_of_states, self.number_of_states+1], size=(self.number_of_clauses, self.number_of_features, 2)).astype(dtype=np.int32)
 
 		# Data structures for keeping track of which clause refers to which class, and the sign of the clause
