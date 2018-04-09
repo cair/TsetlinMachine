@@ -272,7 +272,7 @@ cdef class MultiClassTsetlinMachine:
 				self.feedback_to_clauses[self.clause_sign[negative_target_class,j,0]] += 1
 		
 		#################################
-		### Train Invididual Automata ###
+		### Train Individual Automata ###
 		#################################
 
 		for j in xrange(self.number_of_clauses):
