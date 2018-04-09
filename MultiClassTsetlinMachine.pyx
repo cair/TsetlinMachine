@@ -278,7 +278,7 @@ cdef class MultiClassTsetlinMachine:
 		for j in xrange(self.number_of_clauses):
 			if self.feedback_to_clauses[j] > 0:
 				####################################################
-				### Type I Feedback (Eliminates False Negatives) ###
+				### Type I Feedback (Combats False Negatives) ###
 				####################################################
 
 				if self.clause_output[j] == 0:		
@@ -313,7 +313,7 @@ cdef class MultiClassTsetlinMachine:
 			
 			elif self.feedback_to_clauses[j] < 0:
 				#####################################################
-				### Type II Feedback (Eliminates False Positives) ###
+				### Type II Feedback (Combats False Positives) ###
 				#####################################################
 				if self.clause_output[j] == 1:
 					for k in xrange(self.number_of_features):
