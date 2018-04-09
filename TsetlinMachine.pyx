@@ -95,7 +95,7 @@ cdef class TsetlinMachine:
 	### Predict Target Output y for Input X ###
 	###########################################
 
-	cpdef int predict(self, int[:] X, verbose=False):
+	cpdef int predict(self, int[:] X):
 		cdef int output_sum
 		cdef int j
 		
