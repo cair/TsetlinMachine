@@ -28,9 +28,9 @@ cimport numpy as np
 import random
 from libc.stdlib cimport rand, RAND_MAX
 
-####################################
-### The Binary Tsetlin Machine #####
-####################################
+#############################
+### The Tsetlin Machine #####
+#############################
 
 cdef class TsetlinMachine:
 	cdef int number_of_clauses
