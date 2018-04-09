@@ -1,7 +1,7 @@
 # The Tsetlin Machine
 The code and datasets for the Tsetlin Machine.
 
-Implements the Binary and the Multiclass version of the Tsetlin Machine from https://arxiv.org/abs/1804.01508.
+Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508 as well as a multiclass version.
 
 Copyright (c) 2018 Ole-Christoffer Granmo
 
