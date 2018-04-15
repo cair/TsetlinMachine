@@ -9,6 +9,7 @@ Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508 as well as 
 - Numpy http://www.numpy.org/
 - Cython http://cython.org/
 
+## Licence
 
 Copyright (c) 2018 Ole-Christoffer Granmo
 
