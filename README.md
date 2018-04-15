@@ -3,6 +3,13 @@ The code and datasets for the Tsetlin Machine.
 
 Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508 as well as the multiclass version.
 
+## Requirements
+
+- Python 2.7.x https://www.python.org/downloads/
+- Numpy http://www.numpy.org/
+- Cython http://cython.org/
+
+
 Copyright (c) 2018 Ole-Christoffer Granmo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
