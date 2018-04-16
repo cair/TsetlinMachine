@@ -1,8 +1,10 @@
 #!/usr/bin/python
 
-import pyximport; pyximport.install()
-
 import numpy as np
+import pyximport; pyximport.install(setup_args={
+                              "include_dirs":np.get_include()},
+                            reload_support=True)
+
 import MultiClassTsetlinMachine
 
 # Parameters for the Tsetlin Machine
