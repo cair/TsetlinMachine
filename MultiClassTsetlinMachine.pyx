@@ -55,7 +55,7 @@ cdef class MultiClassTsetlinMachine:
 	cdef int boost_true_positive_feedback
 	
 	# Initialization of the Tsetlin Machine
-	def __init__(self, number_of_classes, number_of_clauses, number_of_features, number_of_states, s, threshold, boost_true_positive_feedback = 1):
+	def __init__(self, number_of_classes, number_of_clauses, number_of_features, number_of_states, s, threshold, boost_true_positive_feedback = 0):
 		cdef int[:] target_indexes
 		cdef int c,i,j,m
 
