@@ -125,7 +125,7 @@ cdef class TsetlinMachine:
 
 	# Get the state of a specific automaton, indexed by clause, feature, and automaton type (include/include negated).
 	def get_state(self, int clause, int feature, int automaton_type):
-		return self.self.ta_state[clause,feature,automaton_type]
+		return self.ta_state[clause,feature,automaton_type]
 
 	# Sum up the votes for each output decision (y=0 or y = 1)
 	cdef int sum_up_clause_votes(self):
