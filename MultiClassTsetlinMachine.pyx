@@ -72,7 +72,7 @@ cdef class MultiClassTsetlinMachine:
 
 		# Data structures for keeping track of which clause refers to which class, and the sign of the clause
 		self.clause_count = np.zeros((self.number_of_classes,), dtype=np.int32)
-		self.clause_sign = np.zeros((self.number_of_classes, self.number_of_clauses, 2), dtype=np.int32)
+		self.clause_sign = np.zeros((self.number_of_classes, self.number_of_clauses/self.number_of_classes, 2), dtype=np.int32)
 		
 		# Data structures for intermediate calculations (clause output, summation of votes, and feedback to clauses)
 		self.clause_output = np.zeros(shape=(self.number_of_clauses,), dtype=np.int32)
