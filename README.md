@@ -14,7 +14,7 @@ Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508 as well as 
 * Fast bit-operation based implementation in C with MNIST demo, https://github.com/cair/fast-tsetlin-machine-with-mnist-demo
 * C++ Toolkit with Python bindings, https://github.com/WojciechMigda/TsetlinMachineToolkit
 * C implementation, https://github.com/cair/TsetlinMachineC
-* CUDA implementation, https://github.com/cair/TextUnderstandingTsetlinMachine
+* CUDA implementation with IMDB text classification demo, https://github.com/cair/TextUnderstandingTsetlinMachine
 
 ## Licence
 
