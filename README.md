@@ -11,7 +11,9 @@ Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508 as well as 
 
 ## Other Implementations
 
-* Fast bit-operation based implementation with MNIST demo, https://github.com/cair/fast-tsetlin-machine-with-mnist-demo
+* Fast bit-operation based implementation in C with MNIST demo, https://github.com/cair/fast-tsetlin-machine-with-mnist-demo
+* C++ Toolkit with Python bindings, https://github.com/WojciechMigda/TsetlinMachineToolkit
+* C Implementation, https://github.com/cair/TsetlinMachineC
 
 ## Licence
 
