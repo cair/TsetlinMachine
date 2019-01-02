@@ -12,9 +12,9 @@ Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508 as well as 
 ## Other Implementations
 
 * Fast bit-operation based implementation in C with MNIST demo, https://github.com/cair/fast-tsetlin-machine-with-mnist-demo
-* C++ Toolkit with Python bindings, https://github.com/WojciechMigda/TsetlinMachineToolkit
-* C implementation, https://github.com/cair/TsetlinMachineC
 * CUDA implementation with IMDB text classification demo, https://github.com/cair/TextUnderstandingTsetlinMachine
+* C implementation, https://github.com/cair/TsetlinMachineC
+* C++ Toolkit with Python bindings, https://github.com/WojciechMigda/TsetlinMachineToolkit
 * Rust implementation, https://github.com/KhaledSharif/TsetlinMachine
 * C++ implementation, https://github.com/222464/TsetlinMachine
 
