@@ -15,6 +15,8 @@ Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508 as well as 
 * C++ Toolkit with Python bindings, https://github.com/WojciechMigda/TsetlinMachineToolkit
 * C implementation, https://github.com/cair/TsetlinMachineC
 * CUDA implementation with IMDB text classification demo, https://github.com/cair/TextUnderstandingTsetlinMachine
+* Rust implementation, https://github.com/KhaledSharif/TsetlinMachine
+* C++ implementation, https://github.com/222464/TsetlinMachine
 
 ## Licence
 
