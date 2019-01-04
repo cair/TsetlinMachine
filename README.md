@@ -19,7 +19,7 @@ Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508 as well as 
 * C++ implementation, https://github.com/222464/TsetlinMachine
 * Python framework for rapid deployment, https://github.com/cair/open-tsetlin-machine
 
-# Learning Behaviour
+## Learning Behaviour
 The below figure depicts the learning progress of a Tsetlin Machine on a binarized, but otherwise unenhanced, version of the MNIST dataset (https://en.wikipedia.org/wiki/MNIST_database). See also https://github.com/cair/fast-tsetlin-machine-with-mnist-demo.
 
 ![Figure 4](https://github.com/olegranmo/blob/blob/master/learning_progress.png)
