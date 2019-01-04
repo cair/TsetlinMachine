@@ -21,6 +21,7 @@ Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508 as well as 
 
 # Learning Behaviour
 The below figure depicts the learning progress of a Tsetlin Machine on a binarized, but otherwise unenhanced, version of the MNIST dataset (https://en.wikipedia.org/wiki/MNIST_database). See also https://github.com/cair/fast-tsetlin-machine-with-mnist-demo.
+
 ![Figure 4](https://github.com/olegranmo/blob/blob/master/learning_progress.png)
 
 As seen in the figure, both test and training accuracy increases steadily epoch-by-epoch. The most notable observation is that while the accuracy on the training data approaches $99.8$\%, no significant overfitting occurs. Accuracy on the test data increases steadily too, approaching an accuracy of $82.2$\% after 250 epochs. This is quite different from what occurs with backpropagation on a neural network, where accuracy on test data starts to drop at some point, without proper regularization mechanisms.
