@@ -24,7 +24,7 @@ The below figure depicts the learning progress of a Tsetlin Machine on a binariz
 
 ![Figure 4](https://github.com/olegranmo/blob/blob/master/learning_progress.png)
 
-As seen in the figure, both test and training accuracy increase across the epochs. Perhaps most notably, while accuracy on the training data approaches 99.9%, accuracy on the test data continues to increase as well, approaching 98.2% after 400 epochs. This is quite different from what occurs with backpropagation on a neural network, where accuracy on test data starts to drop at some point due to overfitting, without proper regularization mechanisms.
+As seen in the figure, both test and training accuracy increase across the epochs. Perhaps most notably, while accuracy on the training data approaches 99.9%, accuracy on the test data continues to increase as well, hitting 98.2% after 400 epochs. This is quite different from what occurs with backpropagation on a neural network, where accuracy on test data starts to drop at some point due to overfitting, without proper regularization mechanisms.
 
 ## Licence
 
