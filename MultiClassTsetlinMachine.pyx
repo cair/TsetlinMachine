@@ -27,7 +27,6 @@ import numpy as np
 cimport numpy as np
 import random
 from libc.stdlib cimport rand, RAND_MAX
-from libc.float cimport FLT_MIN
 
 ########################################
 ### The Multiclass Tsetlin Machine #####
@@ -234,9 +233,9 @@ cdef class MultiClassTsetlinMachine:
 		cdef int action_include, action_include_negated
 
 		# Randomly pick one of the other classes, for pairwise learning of class output 
-		negative_target_class = int(self.number_of_classes * (1.0*rand()/RAND_MAX - FLT_MIN))
+		negative_target_class = int(self.number_of_classes * (1.0-1e-15)*rand()/RAND_MAX)
 		while negative_target_class == target_class:
-			negative_target_class = int(self.number_of_classes * (1.0*rand()/RAND_MAX - FLT_MIN))
+			negative_target_class = int(self.number_of_classes * (1.0-1e-15)*rand()/RAND_MAX)
 
 		###############################
 		### Calculate Clause Output ###
