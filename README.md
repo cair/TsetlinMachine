@@ -26,6 +26,20 @@ The below figure depicts the learning progress of a Tsetlin Machine on a binariz
 
 As seen in the figure, both test and training accuracy increase across the epochs. Even while accuracy on the training data approaches 99.9%, accuracy on the test data continues to increase as well, hitting 98.2% after 400 epochs. This is quite different from what occurs with backpropagation on a neural network, where accuracy on test data starts to drop at some point due to overfitting, without proper regularization mechanisms.
 
+## Noisy XOR Demo
+
+```bash
+./NoisyXORDemo.py
+
+Accuracy on test data (no noise): 1.0
+Accuracy on training data (40% noise): 0.603
+
+Prediction: x1 = 1, x2 = 0, ... -> y =  1
+Prediction: x1 = 0, x2 = 1, ... -> y =  1
+Prediction: x1 = 0, x2 = 0, ... -> y =  0
+Prediction: x1 = 1, x2 = 1, ... -> y =  0
+```
+
 ## Licence
 
 Copyright (c) 2018 Ole-Christoffer Granmo
