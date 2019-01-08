@@ -42,7 +42,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 
 ## Licence
 
-Copyright (c) 2018 Ole-Christoffer Granmo
+Copyright (c) 2019 Ole-Christoffer Granmo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
