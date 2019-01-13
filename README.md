@@ -20,7 +20,7 @@ Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508 as well as 
 * Python framework for rapid deployment, https://github.com/cair/open-tsetlin-machine
 
 ## Learning Behaviour
-The below figure depicts average learning progress (over 50 runs) of a Tsetlin Machine on a binarized, but otherwise unenhanced, version of the MNIST dataset (https://en.wikipedia.org/wiki/MNIST_database). See also https://github.com/cair/fast-tsetlin-machine-with-mnist-demo.
+The below figure depicts average learning progress (over 50 runs) of the Tsetlin Machine on a binarized, but otherwise unenhanced, version of the MNIST dataset (https://en.wikipedia.org/wiki/MNIST_database). See also https://github.com/cair/fast-tsetlin-machine-with-mnist-demo.
 
 ![Figure 4](https://github.com/olegranmo/blob/blob/master/learning_progress.png)
 
