@@ -17,7 +17,7 @@ Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508 as well as 
 * C++ Toolkit with Python bindings, https://github.com/WojciechMigda/TsetlinMachineToolkit
 * Rust implementation, https://github.com/KhaledSharif/TsetlinMachine
 * C++ implementation, https://github.com/222464/TsetlinMachine
-* NodeJs implementation, https://github.com/anon767/TsetlinMachine
+* Node.js implementation, https://github.com/anon767/TsetlinMachine
 * C# implementation, https://github.com/cokobware/TsetlinMachineCSharp
 * Python framework for rapid deployment, https://github.com/cair/open-tsetlin-machine
 
