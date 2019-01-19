@@ -233,9 +233,9 @@ cdef class MultiClassTsetlinMachine:
 		cdef int action_include, action_include_negated
 
 		# Randomly pick one of the other classes, for pairwise learning of class output 
-		negative_target_class = int(self.number_of_classes * (1.0-1e-15)*rand()/RAND_MAX)
+		negative_target_class = int(self.number_of_classes * 1.0*rand()/(RAND_MAX+1))
 		while negative_target_class == target_class:
-			negative_target_class = int(self.number_of_classes * (1.0-1e-15)*rand()/RAND_MAX)
+			negative_target_class = int(self.number_of_classes * 1.0*rand()/(RAND_MAX+1))
 
 		###############################
 		### Calculate Clause Output ###
