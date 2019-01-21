@@ -1,7 +1,6 @@
 # The Tsetlin Machine
-The code and datasets for the Tsetlin Machine.
 
-Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508 as well as the multiclass version.
+The code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508, including the multiclass version. The Tsetlin Machine solves complex pattern recognition problems with easy-to-interpret propositional formulas, composed by a collective of Tsetlin Automata. 
 
 ## Other Implementations
 
