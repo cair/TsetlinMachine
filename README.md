@@ -3,12 +3,6 @@ The code and datasets for the Tsetlin Machine.
 
 Implements the Tsetlin Machine from https://arxiv.org/abs/1804.01508 as well as the multiclass version.
 
-## Requirements
-
-- Python 2.7.x https://www.python.org/downloads/
-- Numpy http://www.numpy.org/
-- Cython http://cython.org/
-
 ## Other Implementations
 
 * Fast bit-operation based implementation in C with MNIST demo, https://github.com/cair/fast-tsetlin-machine-with-mnist-demo
@@ -41,6 +35,12 @@ Prediction: x1 = 0, x2 = 1, ... -> y =  1
 Prediction: x1 = 0, x2 = 0, ... -> y =  0
 Prediction: x1 = 1, x2 = 1, ... -> y =  0
 ```
+
+## Requirements
+
+- Python 2.7.x https://www.python.org/downloads/
+- Numpy http://www.numpy.org/
+- Cython http://cython.org/
 
 ## Licence
 
