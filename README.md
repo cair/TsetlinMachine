@@ -13,7 +13,6 @@ The code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine fr
 * C++ implementation, https://github.com/222464/TsetlinMachine
 * Node.js implementation, https://github.com/anon767/TsetlinMachine
 * C# implementation, https://github.com/cokobware/TsetlinMachineCSharp
-* Python framework for rapid deployment, https://github.com/cair/open-tsetlin-machine
 
 ## Learning Behaviour
 The below figure depicts average learning progress (over 50 runs) of the Tsetlin Machine on a binarized, but otherwise unenhanced version of the MNIST dataset (https://en.wikipedia.org/wiki/MNIST_database). See also https://github.com/cair/fast-tsetlin-machine-with-mnist-demo.
