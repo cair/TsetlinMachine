@@ -9,7 +9,7 @@ The code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine fr
 * C implementation, https://github.com/cair/TsetlinMachineC
 * C++ Toolkit with Python bindings, https://github.com/WojciechMigda/TsetlinMachineToolkit
 * Rust implementation, https://github.com/KhaledSharif/TsetlinMachine
-* Fast bit-operation based implementation in Rust with MNIST demo, https://github.com/jcriddle4/tsetlin_rust_mnist
+* Rust implementation with fast bit-operations, including MNIST demo, https://github.com/jcriddle4/tsetlin_rust_mnist
 * C++ implementation, https://github.com/222464/TsetlinMachine
 * Node.js implementation, https://github.com/anon767/TsetlinMachine
 * C# implementation, https://github.com/cokobware/TsetlinMachineCSharp
