@@ -51,6 +51,68 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 * The Convolutional Tsetlin Machine, https://github.com/cair/convolutional-tsetlin-machine
 * The Regression Tsetlin Machine, https://github.com/cair/regression-tsetlin-machine
 
+## Tsetlin Machine Papers
+
+```bash
+@article{phoulady2019, 
+  author={Adrian {Phoulady} and Ole-Christoffer {Granmo} and Saeed Rahimi {Gorji} and Hady Ahmady {Phoulady}}, 
+  journal={Submitted}, 
+  title="{The Weighted Tsetlin Machine: Compressed Representations with Clause Weighting}",
+  year={2019}
+}
+```
+
+```bash
+@article{berge2019, 
+  author={Geir Thore {Berge} and Ole-Christoffer {Granmo} and Tor Oddbjørn {Tveit} and Morten {Goodwin} and Lei {Jiao} and Bernt Viggo {Matheussen}}, 
+  journal={IEEE Access}, 
+  title="{Using the Tsetlin Machine to Learn Human-Interpretable Rules for High-Accuracy Text Categorization with Medical Applications}",
+  volume={7},
+  pages={115134-115146}, 
+  year={2019}, 
+  doi={10.1109/ACCESS.2019.2935416}, 
+  ISSN={2169-3536}
+}
+```
+
+```bash
+@article{granmo2019convtsetlin,
+  author = {{Granmo}, Ole-Christoffer and {Glimsdal}, Sondre and {Jiao}, Lei and {Goodwin}, Morten and {Omlin}, Christian W. and {Berge}, Geir Thore},
+  title = "{The Convolutional Tsetlin Machine}",
+  journal = {arXiv preprint arXiv:1905.09688}, year = {2019}
+}
+```
+
+```bash
+@InProceedings{abeyrathna2019regressiontsetlin,
+  author = {{Abeyrathna}, Kuruge Darshana and {Granmo}, Ole-Christoffer and {Jiao}, Lei and {Goodwin}, Morten},
+  title = "{The Regression Tsetlin Machine: A Tsetlin Machine for Continuous Output Problems}",
+  editor="Moura Oliveira, Paulo and Novais, Paulo and Reis, Lu{\'i}s Paulo ",
+  booktitle="Progress in Artificial Intelligence", year="2019",
+  publisher="Springer International Publishing",
+  pages="268--280"
+}
+```
+
+```bash
+@InProceedings{abeyrathna2019continuousinput,
+  author = {{Abeyrathna}, Kuruge Darshana and {Granmo}, Ole-Christoffer and {Zhang}, Xuan and {Goodwin}, Morten},
+  title = "{A Scheme for Continuous Input to the Tsetlin Machine with Applications to Forecasting Disease Outbreaks}",
+  booktitle = "{Advances and Trends in Artificial Intelligence. From Theory to Practice}", year = "2019",
+  editor = "Wotawa, Franz and Friedrich, Gerhard and Pill, Ingo and Koitz-Hristov, Roxane and Ali, Moonis",
+  publisher = "Springer International Publishing",
+  pages = "564--578"
+}
+```
+
+```bash
+@article{granmo2018tsetlin,
+  author = {{Granmo}, Ole-Christoffer},
+  title = "{The Tsetlin Machine - A Game Theoretic Bandit Driven Approach to Optimal Pattern Recognition with Propositional Logic}",
+  journal = {arXiv preprint arXiv:1804.01508}, year = {2018}
+}
+```
+
 ## Citation
 
 ```bash
