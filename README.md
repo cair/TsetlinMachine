@@ -4,7 +4,7 @@ The code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine fr
 
 ## Other Implementations
 
-* High-level Tsetlin Machine Python API with fast C-extensions. Implements the Tsetlin Machine, Convolutional Tsetlin Machine and Regression Tsetlin Machine, with support for continuous features. https://github.com/cair/pyTsetlinMachine, https://pypi.org/project/pyTsetlinMachine/
+* High-level Tsetlin Machine Python API with fast C-extensions. Implements the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features and clause indexing. https://github.com/cair/pyTsetlinMachine, https://pypi.org/project/pyTsetlinMachine/
 * Fast bit-operation based implementation in C with MNIST demo, https://github.com/cair/fast-tsetlin-machine-with-mnist-demo
 * CUDA implementation with IMDB text classification demo, https://github.com/cair/fast-tsetlin-machine-in-cuda-with-imdb-demo
 * C implementation, https://github.com/cair/TsetlinMachineC
