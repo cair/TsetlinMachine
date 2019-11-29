@@ -72,7 +72,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 ```
 
 ```bash
-@article{berge2019, 
+@article{berge2019text, 
   author={Geir Thore {Berge} and Ole-Christoffer {Granmo} and Tor Oddbjørn {Tveit} and Morten {Goodwin} and Lei {Jiao} and Bernt Viggo {Matheussen}}, 
   journal={IEEE Access}, 
   title="{Using the Tsetlin Machine to Learn Human-Interpretable Rules for High-Accuracy Text Categorization with Medical Applications}",
