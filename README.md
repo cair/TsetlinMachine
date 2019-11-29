@@ -54,7 +54,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 ## Tsetlin Machine Papers
 
 ```bash
-@article{phoulady2019, 
+@article{phoulady2019weighted, 
   author={Adrian {Phoulady} and Ole-Christoffer {Granmo} and Saeed Rahimi {Gorji} and Hady Ahmady {Phoulady}}, 
   journal={Submitted}, 
   title="{The Weighted Tsetlin Machine: Compressed Representations with Clause Weighting}",
