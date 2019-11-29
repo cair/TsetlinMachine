@@ -4,7 +4,7 @@ The code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine fr
 
 ## Other Implementations
 
-* High-level Tsetlin Machine Python API with fast C-extensions. Implements the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features and clause indexing, https://github.com/cair/pyTsetlinMachine, https://pypi.org/project/pyTsetlinMachine/
+* High-level Tsetlin Machine Python API with fast C-extensions. Implements the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features, multi-granular clauses, and clause indexing, https://github.com/cair/pyTsetlinMachine, https://pypi.org/project/pyTsetlinMachine/
 * Fast bit-operation based implementation in C with MNIST demo, https://github.com/cair/fast-tsetlin-machine-with-mnist-demo
 * CUDA implementation with IMDB text classification demo, https://github.com/cair/fast-tsetlin-machine-in-cuda-with-imdb-demo
 * C implementation, https://github.com/cair/TsetlinMachineC
@@ -59,6 +59,15 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
   journal={Submitted}, 
   title="{The Weighted Tsetlin Machine: Compressed Representations with Clause Weighting}",
   year={2019}
+}
+```
+
+```bash
+@InProceedings{gorji2019multigranular,
+  author = {Saeed Rahimi {Gorji} and Ole-Christoffer {Granmo} and Adrian {Phoulady} and Morten {Goodwin}},
+  title = "{A Tsetlin Machine with Multigranular Clauses}",
+  booktitle="To Appear in Proceedings of the Thirty-ninth SGAI International Conference on Artificial Intelligenc (SGAI-2019)", year="2019",
+  publisher="Springer International Publishing",
 }
 ```
 
