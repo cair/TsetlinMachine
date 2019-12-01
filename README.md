@@ -4,7 +4,7 @@ The code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine fr
 
 </p>
 <p align="center">
-  <img width="90%" src="https://github.com/olegranmo/blob/blob/master/Tsetlin_Machine_Example_Configuration_Full.png">
+  <img width="75%" src="https://github.com/olegranmo/blob/blob/master/Tsetlin_Machine_Example_Configuration_Full.png">
 </p>
 
 ## Other Implementations
