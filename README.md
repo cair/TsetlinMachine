@@ -60,7 +60,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 ```bash
 @article{phoulady2019weighted, 
   author={Adrian {Phoulady} and Ole-Christoffer {Granmo} and Saeed Rahimi {Gorji} and Hady Ahmady {Phoulady}}, 
-  journal={Submitted}, 
+  journal={arXiv preprint arXiv:1911.12607}, 
   title="{The Weighted Tsetlin Machine: Compressed Representations with Clause Weighting}",
   year={2019}
 }
