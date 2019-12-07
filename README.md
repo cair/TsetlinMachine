@@ -62,7 +62,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
-@inProceedings{phoulady2019weighted, 
+@InProceedings{phoulady2019weighted, 
   author={Adrian {Phoulady} and Ole-Christoffer {Granmo} and Saeed Rahimi {Gorji} and Hady Ahmady {Phoulady}}, 
   booktitle={To Appear in the Proceedings Ninth International Workshop on Statistical Relational AI (StarAI 2020)}, 
   title="{The Weighted Tsetlin Machine: Compressed Representations with Clause Weighting}",
