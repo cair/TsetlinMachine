@@ -83,7 +83,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 @InProceedings{gorji2019multigranular,
   author = {Saeed Rahimi {Gorji} and Ole-Christoffer {Granmo} and Adrian {Phoulady} and Morten {Goodwin}},
   title = "{A Tsetlin Machine with Multigranular Clauses}",
-  booktitle="To Appear in Proceedings of the Thirty-ninth SGAI International Conference on Artificial Intelligenc (SGAI-2019)", year="2019",
+  booktitle="To Appear in the Proceedings of the Thirty-ninth SGAI International Conference on Artificial Intelligenc (SGAI-2019)", year="2019",
   publisher="Springer International Publishing",
 }
 ```
