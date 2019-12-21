@@ -27,7 +27,9 @@ Convolutional Tsetlin Machine tutorial, https://github.com/cair/convolutional-ts
 ## Learning Behaviour
 The below figure depicts average learning progress (over 50 runs) of the Tsetlin Machine on a binarized, but otherwise unenhanced version of the MNIST dataset (https://en.wikipedia.org/wiki/MNIST_database). See also https://github.com/cair/fast-tsetlin-machine-with-mnist-demo.
 
-![Figure 4](https://github.com/olegranmo/blob/blob/master/learning_progress.png)
+<p align="center">
+  <img width="75%" src=https://github.com/olegranmo/blob/blob/master/learning_progress.png">
+</p>
 
 As seen in the figure, both test and training accuracy increase almost monotonically across the epochs. Even while accuracy on the training data approaches 99.9%, accuracy on the test data continues to increase as well, hitting 98.2% after 400 epochs. This is quite different from what occurs with backpropagation on a neural network, where accuracy on test data starts to drop at some point due to overfitting, without proper regularization mechanisms.
 
