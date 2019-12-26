@@ -76,8 +76,9 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```bash
 @article{abeyrathna2019nonlinear, 
   author={K. Darshana {Abeyrathna} and Ole-Christoffer {Granmo} and Xuan {Zhang} and Lei {Jiao} and Morten {Goodwin}}, 
-  journal={To Appear in Philosophical Transactions of the Royal Society A},
+  journal={Philosophical Transactions of the Royal Society A},
   title="{The Regression Tsetlin Machine - A Novel Approach to Interpretable Non-Linear Regression}",
+  volume={378}, issue={2164},
   year={2019}
 }
 ```
