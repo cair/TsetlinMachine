@@ -74,6 +74,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@InProceedings{wheeldon2020pervasive, 
+  author={Adrian {Wheeldon} and Rishad {Shafik} and Alex {Yakovlev} and Jonathan {Edwards} and Ibrahim {Haddadi} and Ole-Christoffer {Granmo}}, 
+  booktitle={SCONA Workshop at Design, Automation and Test in Europe (DATE 2020)}, 
+  title="{Tsetlin Machine: A New Paradigm for Pervasive AI}",
+  year={2020}
+}
+```
+
+```bash
 @article{abeyrathna2019nonlinear, 
   author={K. Darshana {Abeyrathna} and Ole-Christoffer {Granmo} and Xuan {Zhang} and Lei {Jiao} and Morten {Goodwin}}, 
   journal={Philosophical Transactions of the Royal Society A},
