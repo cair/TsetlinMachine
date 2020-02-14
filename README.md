@@ -68,7 +68,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 @article{abeyrathna2020integerweighting,
   author = {K. Darshana {Abeyrathna} and Ole-Christoffer {Granmo} and Morten {Goodwin}},
   title = "{A Regression Tsetlin Machine with Integer Weighted Clauses for Compact Pattern Representation}",
-  journal = {arXiv preprint arXiv:2002.01245}, year = {2019}
+  journal = {arXiv preprint arXiv:2002.01245}, year = {2020}
 }
 ```
 
