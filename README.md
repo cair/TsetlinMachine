@@ -65,6 +65,14 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@article{abeyrathna2020integerweighting,
+  author = {K. Darshana {Abeyrathna} and Ole-Christoffer {Granmo} and Morten {Goodwin}},
+  title = "{A Regression Tsetlin Machine with Integer Weighted Clauses for Compact Pattern Representation}",
+  journal = {arXiv preprint arXiv:2002.01245}, year = {2019}
+}
+```
+
+```bash
 @InProceedings{phoulady2020weighted, 
   author={Adrian {Phoulady} and Ole-Christoffer {Granmo} and Saeed Rahimi {Gorji} and Hady Ahmady {Phoulady}}, 
   booktitle={Proceedings of the Ninth International Workshop on Statistical Relational AI (StarAI 2020)}, 
