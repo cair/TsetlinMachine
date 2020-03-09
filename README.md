@@ -12,6 +12,7 @@ The code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine fr
 * Fast C++ implementation of the Weighted Tsetlin Machine with MNIST-, IMDb-, and Connect-4 demos, https://github.com/adrianphoulady/weighted-tsetlin-machine-cpp
 * Fast bit-operation based implementation in C with MNIST demo, https://github.com/cair/fast-tsetlin-machine-with-mnist-demo
 * CUDA implementation with IMDB text classification demo, https://github.com/cair/fast-tsetlin-machine-in-cuda-with-imdb-demo
+* Hardware implementations, https://github.com/JieGH/Hardware_TM_Demo
 * C implementation, https://github.com/cair/TsetlinMachineC
 * C++ Toolkit with Python bindings, https://github.com/WojciechMigda/TsetlinMachineToolkit
 * Rust implementation, https://github.com/KhaledSharif/TsetlinMachine
