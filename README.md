@@ -67,10 +67,22 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
-@article{abeyrathna2020integerweighting,
-  author = {K. Darshana {Abeyrathna} and Ole-Christoffer {Granmo} and Morten {Goodwin}},
-  title = "{A Regression Tsetlin Machine with Integer Weighted Clauses for Compact Pattern Representation}",
-  journal = {arXiv preprint arXiv:2002.01245}, year = {2020}
+@InProceedings{gorji2020indexing,
+  title="{Increasing the Inference and Learning Speed of Tsetlin Machines with Clause Indexing}",
+  author={Saeed {Gorji} and Ole Christoffer {Granmo} and Sondre {Glimsdal} and Jonathan {Edwards} and Morten {Goodwin}},
+  booktitle={Accepted to International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems},
+  year={2020},
+  organization={Springer}
+}
+```
+
+```bash
+@InProceedings{abeyrathna2020integer,
+  title="{A Regression Tsetlin Machine with Integer Weighted Clauses for Compact Pattern Representation,}",
+  author={Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
+  booktitle={Accepted to International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems},
+  year={2020},
+  organization={Springer}
 }
 ```
 
@@ -165,7 +177,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 
 ## Licence
 
-Copyright (c) 2019 Ole-Christoffer Granmo
+Copyright (c) 2020 Ole-Christoffer Granmo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
