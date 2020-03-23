@@ -22,6 +22,10 @@ The code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine fr
 * Node.js implementation, https://github.com/anon767/TsetlinMachine
 * C# implementation, https://github.com/cokobware/TsetlinMachineCSharp
 
+## Videos
+
+* Tsetlin Machine - A new paradigm for pervasive AI, DATE SCONA Workshop presentation by Adrian Wheeldon, Microsystems Research Group, Newcastle University, https://youtu.be/TaspuovmSR8
+
 ## Tutorials
 
 Convolutional Tsetlin Machine tutorial, https://github.com/cair/convolutional-tsetlin-machine-tutorial
