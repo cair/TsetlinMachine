@@ -24,7 +24,8 @@ The code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine fr
 
 ## Videos
 
-* Tsetlin Machine - A new paradigm for pervasive AI, DATE SCONA Workshop presentation by Adrian Wheeldon, Microsystems Research Group, Newcastle University, https://youtu.be/TaspuovmSR8
+* Tsetlin Machine - A new paradigm for pervasive AI. DATE SCONA Workshop presentation by Adrian Wheeldon, Microsystems Research Group, Newcastle University. https://youtu.be/TaspuovmSR8
+* Tsetlin Machine on Iris Data Set Demo, Handheld #MignonAI. Presentation by Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/BzaPGByX-hg
 
 ## Tutorials
 
