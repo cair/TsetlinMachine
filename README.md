@@ -26,6 +26,8 @@ The code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine fr
 
 * Tsetlin Machine - A new paradigm for pervasive AI. DATE SCONA Workshop presentation by Adrian Wheeldon, Microsystems Research Group, Newcastle University. https://youtu.be/TaspuovmSR8
 * Tsetlin Machine on Iris Data Set Demo, Handheld #MignonAI. Presentation by Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/BzaPGByX-hg
+* Predicting and explaining economic growth using real-time interpretable learning. Presentation by Christian D. Blakely, PwC Switzerland. https://youtu.be/J6K7V7V7ayo
+* Predicting and interpreting early detection of breast cancer from a simple blood test. Presentation by Christian D. Blakely, PwC Switzerland. https://youtu.be/FrHN_aRLRug
 
 ## Tutorials
 
