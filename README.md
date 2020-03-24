@@ -17,7 +17,7 @@ A basic Tsetlin Machine takes a vector <img src="http://latex.codecogs.com/svg.l
 </p>
 
 <p align="left">
-  E.g., the clause <img src="http://latex.codecogs.com/svg.latex?C_j(X) = x_1 x_2" border="0"/> consists of the literals <img src="http://latex.codecogs.com/svg.latex?L_j = \{x_1, x_2\}" border="0"/> and outputs <img src="http://latex.codecogs.com/svg.latex?1" border="0"/> iff <img src="http://latex.codecogs.com/svg.latex?x_1 = x_2 = 1" border="0"/>.
+  For example, the clause <img src="http://latex.codecogs.com/svg.latex?C_j(X) = x_1 x_2" border="0"/> consists of the literals <img src="http://latex.codecogs.com/svg.latex?L_j = \{x_1, x_2\}" border="0"/> and outputs <img src="http://latex.codecogs.com/svg.latex?1" border="0"/> iff <img src="http://latex.codecogs.com/svg.latex?x_1 = x_2 = 1" border="0"/>.
 </p>
 
 <p align="left">
