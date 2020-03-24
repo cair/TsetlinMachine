@@ -6,6 +6,43 @@ The code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine fr
   <img width="75%" src="https://github.com/olegranmo/blob/blob/master/Tsetlin_Machine_Example_Configuration_Full.png">
 </p>
 
+<img src="http://latex.codecogs.com/svg.latex?" border="0"/>
+
+## Basics
+
+<p align="left">
+A basic Tsetlin Machine takes a vector <img src="http://latex.codecogs.com/svg.latex?X=(x_1,\ldots,x_o)" border="0"/> of binary features as input, to be classified into one of two classes, <img src="http://latex.codecogs.com/svg.latex?y=0" border="0"/> or <img src="http://latex.codecogs.com/svg.latex?y=1" border="0"/>. Together with their negated counterparts, <img src="http://latex.codecogs.com/svg.latex?\bar{x}_k = {\lnot} {x}_k = 1-x_k" border="0"/>, the features form a literal set <img src="http://latex.codecogs.com/svg.latex?L = \{x_1,\ldots,x_o,\bar{x}_1,\ldots,\bar{x}_o\}" border="0"/>. A TM pattern is formulated as a conjunctive clause <img src="http://latex.codecogs.com/svg.latex?C_j" border="0"/>, formed by ANDing a subset <img src="http://latex.codecogs.com/svg.latex?L_j \subseteq L" border="0"/> of the literal set:
+</p>
+
+<p align="center">
+  <img src="http://latex.codecogs.com/svg.latex?C_j (X)=\bigwedge_{l_k \in L_j} l_k = \prod_{l_k \in L_j} l_k" border="0"/>
+</p>
+
+<p align="left">
+  E.g., the clause <img src="http://latex.codecogs.com/svg.latex?C_j(X) = x_1 x_2" border="0"/> consists of the literals <img src="http://latex.codecogs.com/svg.latex?L_j = \{x_1, x_2\}" border="0"/> and outputs 1 iff <img src="http://latex.codecogs.com/svg.latex?x_1 = x_2 = 1" border="0"/>.
+</p>
+
+<p align="left">
+  The number of clauses employed is a user set parameter <img src="http://latex.codecogs.com/svg.latex?m" border="0"/>. Half of the clauses are assigned positive polarity. The other half is assigned negative polarity. The clause outputs, in turn, are combined into a classification decision through summation and thresholding using the unit step function <img src="http://latex.codecogs.com/svg.latex?u" border="0"/>:
+</p>
+
+<p align="center">
+<img src="http://latex.codecogs.com/svg.latex?\hat{y} = u\left(\sum_{j=1}^{m/2} C_j^+(X) - \sum_{j=1}^{m/2} C_j^-(X)\right)" border="0"/>
+</p>
+
+<p align="left">
+I.e., classification is performed based on a majority vote, with the positive clauses voting for <img src="http://latex.codecogs.com/svg.latex?y=1" border="0"/>
+ and the negative for <img src="http://latex.codecogs.com/svg.latex?y=0" border="0"/>. The classifier
+<p align="center">
+<img src="http://latex.codecogs.com/svg.latex?\hat{y} = u\left(x_1 \bar{x}_2 + \bar{x}_1 x_2 - x_1 x_2 - \bar{x}_1 \bar{x}_2\right)" border="0"/>
+</p>
+for instance, captures the XOR-relation.
+</p>
+
+<p align="left">
+A clause is composed by a team of TA, each TA deciding to \emph{Exclude} or \emph{Include} a specific literal in the clause. Learning which literals to include is based on reinforcement: Type I feedback is designed to produce frequent patterns, while Type II feedback increases the discrimination power of the patterns. See https://arxiv.org/abs/1804.01508 for details. 
+</p>
+
 ## Other Implementations
 * Multi-threaded implementation of the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features and multi-granular clauses, https://github.com/cair/pyTsetlinMachineParallel, https://pypi.org/project/pyTsetlinMachineParallel/
 * High-level Tsetlin Machine Python API with fast C-extensions. Implements the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features, multi-granular clauses, and clause indexing, https://github.com/cair/pyTsetlinMachine, https://pypi.org/project/pyTsetlinMachine/
