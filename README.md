@@ -34,7 +34,7 @@ I.e., classification is performed based on a majority vote, with the positive cl
 <p align="center">
 <img src="http://latex.codecogs.com/svg.latex?\hat{y} = u\left(x_1 \bar{x}_2 + \bar{x}_1 x_2 - x_1 x_2 - \bar{x}_1 \bar{x}_2\right)" border="0"/>
 </p>
-for instance, captures the XOR-relation.
+captures for instance the XOR-relation.
 </p>
 
 <p align="left">
