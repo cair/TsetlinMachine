@@ -13,7 +13,7 @@ A basic Tsetlin Machine takes a vector <img src="http://latex.codecogs.com/svg.l
 </p>
 
 <p align="center">
-  <img src="http://latex.codecogs.com/svg.latex?C_j (X)=\bigwedge_{l_k \in L_j} l_k = \prod_{l_k \in L_j} l_k" border="0"/>
+  <img src="http://latex.codecogs.com/svg.latex?C_j (X)=\bigwedge_{{{l}_{k}} \in L_j} l_k = \prod_{{{l}_{k}} \in L_j} l_k" border="0"/>
 </p>
 
 <p align="left">
