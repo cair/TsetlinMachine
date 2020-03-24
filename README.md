@@ -11,7 +11,7 @@ The code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine fr
 ## Basics
 
 <p align="left">
-A basic Tsetlin Machine takes a vector <img src="http://latex.codecogs.com/svg.latex?X=(x_1,\ldots,x_o)" border="0"/> of binary features as input, to be classified into one of two classes, <img src="http://latex.codecogs.com/svg.latex?y=0" border="0"/> or <img src="http://latex.codecogs.com/svg.latex?y=1" border="0"/>. Together with their negated counterparts, <img src="http://latex.codecogs.com/svg.latex?\bar{x}_k = {\lnot} {x}_k = 1-x_k" border="0"/>, the features form a literal set <img src="http://latex.codecogs.com/svg.latex?L = \{x_1,\ldots,x_o,\bar{x}_1,\ldots,\bar{x}_o\}" border="0"/>. A TM pattern is formulated as a conjunctive clause <img src="http://latex.codecogs.com/svg.latex?C_j" border="0"/>, formed by ANDing a subset <img src="http://latex.codecogs.com/svg.latex?L_j \subseteq L" border="0"/> of the literal set:
+A basic Tsetlin Machine takes a vector <img src="http://latex.codecogs.com/svg.latex?X=[x_1,\ldots,x_o]" border="0"/> of binary features as input, to be classified into one of two classes, <img src="http://latex.codecogs.com/svg.latex?y=0" border="0"/> or <img src="http://latex.codecogs.com/svg.latex?y=1" border="0"/>. Together with their negated counterparts, <img src="http://latex.codecogs.com/svg.latex?\bar{x}_k = {\lnot} {x}_k = 1-x_k" border="0"/>, the features form a literal set <img src="http://latex.codecogs.com/svg.latex?L = \{x_1,\ldots,x_o,\bar{x}_1,\ldots,\bar{x}_o\}" border="0"/>. A TM pattern is formulated as a conjunctive clause <img src="http://latex.codecogs.com/svg.latex?C_j" border="0"/>, formed by ANDing a subset <img src="http://latex.codecogs.com/svg.latex?L_j \subseteq L" border="0"/> of the literal set:
 </p>
 
 <p align="center">
@@ -40,7 +40,7 @@ for instance, captures the XOR-relation.
 </p>
 
 <p align="left">
-A clause is composed by a team of TA, each TA deciding to \emph{Exclude} or \emph{Include} a specific literal in the clause. Learning which literals to include is based on reinforcement: Type I feedback is designed to produce frequent patterns, while Type II feedback increases the discrimination power of the patterns. See https://arxiv.org/abs/1804.01508 for details. 
+A clause is composed by a team of Tsetlin Automata, each Tsetlin Automaton deciding to <i>Exclude</i> or <i>Include</i> a specific literal in the clause. Learning which literals to include is based on reinforcement: Type I feedback is designed to produce frequent patterns, while Type II feedback increases the discrimination power of the patterns. See https://arxiv.org/abs/1804.01508 for details. 
 </p>
 
 ## Other Implementations
