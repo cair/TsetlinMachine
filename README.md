@@ -6,8 +6,6 @@ The code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine fr
   <img width="75%" src="https://github.com/olegranmo/blob/blob/master/Tsetlin_Machine_Example_Configuration_Full.png">
 </p>
 
-<img src="http://latex.codecogs.com/svg.latex?" border="0"/>
-
 ## Basics
 
 <p align="left">
