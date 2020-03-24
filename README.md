@@ -45,33 +45,6 @@ for instance, captures the XOR-relation.
 A clause is composed by a team of Tsetlin Automata, each Tsetlin Automaton deciding to <i>Exclude</i> or <i>Include</i> a specific literal in the clause. Learning which literals to include is based on reinforcement: Type I feedback is designed to produce frequent patterns, while Type II feedback increases the discrimination power of the patterns. See https://arxiv.org/abs/1804.01508 for details. 
 </p>
 
-## Other Implementations
-* Multi-threaded implementation of the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features and multi-granular clauses, https://github.com/cair/pyTsetlinMachineParallel, https://pypi.org/project/pyTsetlinMachineParallel/
-* High-level Tsetlin Machine Python API with fast C-extensions. Implements the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features, multi-granular clauses, and clause indexing, https://github.com/cair/pyTsetlinMachine, https://pypi.org/project/pyTsetlinMachine/
-* Fast C++ implementation of the Weighted Tsetlin Machine with MNIST-, IMDb-, and Connect-4 demos, https://github.com/adrianphoulady/weighted-tsetlin-machine-cpp
-* Fast bit-operation based implementation in C with MNIST demo, https://github.com/cair/fast-tsetlin-machine-with-mnist-demo
-* CUDA implementation with IMDB text classification demo, https://github.com/cair/fast-tsetlin-machine-in-cuda-with-imdb-demo
-* Hardware implementations, https://github.com/JieGH/Hardware_TM_Demo
-* Kivy implementation, https://github.com/DarshanaAbeyrathna/Tsetlin-Machine-Based-AI-Enabled-Mobile-App-for-Forecasting-the-Number-of-Corona-Patients
-* C implementation, https://github.com/cair/TsetlinMachineC
-* C++ Toolkit with Python bindings, https://github.com/WojciechMigda/TsetlinMachineToolkit
-* Rust implementation, https://github.com/KhaledSharif/TsetlinMachine
-* Rust implementation with fast bit-operations, including MNIST demo, https://github.com/jcriddle4/tsetlin_rust_mnist
-* C++ implementation, https://github.com/222464/TsetlinMachine
-* Node.js implementation, https://github.com/anon767/TsetlinMachine
-* C# implementation, https://github.com/cokobware/TsetlinMachineCSharp
-
-## Videos
-
-* Tsetlin Machine - A new paradigm for pervasive AI. DATE SCONA Workshop presentation by Adrian Wheeldon, Microsystems Research Group, Newcastle University. https://youtu.be/TaspuovmSR8
-* Tsetlin Machine on Iris Data Set Demo with Handheld MignonAI (http://www.mignon.ai). Presentation by Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/BzaPGByX-hg
-* Predicting and explaining economic growth using real-time interpretable learning. Presentation by Christian D. Blakely, PwC Switzerland. https://youtu.be/J6K7V7V7ayo
-* Early detection of breast cancer from a simple blood test. Presentation by Christian D. Blakely, PwC Switzerland. https://youtu.be/FrHN_aRLRug
-
-## Tutorials
-
-Convolutional Tsetlin Machine tutorial, https://github.com/cair/convolutional-tsetlin-machine-tutorial
-
 ## Learning Behaviour
 The below figure depicts average learning progress (over 50 runs) of the Tsetlin Machine on a binarized, but otherwise unenhanced version of the MNIST dataset (https://en.wikipedia.org/wiki/MNIST_database). See also https://github.com/cair/fast-tsetlin-machine-with-mnist-demo.
 
@@ -100,6 +73,33 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 - Python 2.7.x https://www.python.org/downloads/
 - Numpy http://www.numpy.org/
 - Cython http://cython.org/
+
+## Other Implementations
+* Multi-threaded implementation of the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features and multi-granular clauses, https://github.com/cair/pyTsetlinMachineParallel, https://pypi.org/project/pyTsetlinMachineParallel/
+* High-level Tsetlin Machine Python API with fast C-extensions. Implements the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features, multi-granular clauses, and clause indexing, https://github.com/cair/pyTsetlinMachine, https://pypi.org/project/pyTsetlinMachine/
+* Fast C++ implementation of the Weighted Tsetlin Machine with MNIST-, IMDb-, and Connect-4 demos, https://github.com/adrianphoulady/weighted-tsetlin-machine-cpp
+* Fast bit-operation based implementation in C with MNIST demo, https://github.com/cair/fast-tsetlin-machine-with-mnist-demo
+* CUDA implementation with IMDB text classification demo, https://github.com/cair/fast-tsetlin-machine-in-cuda-with-imdb-demo
+* Hardware implementations, https://github.com/JieGH/Hardware_TM_Demo
+* Kivy implementation, https://github.com/DarshanaAbeyrathna/Tsetlin-Machine-Based-AI-Enabled-Mobile-App-for-Forecasting-the-Number-of-Corona-Patients
+* C implementation, https://github.com/cair/TsetlinMachineC
+* C++ Toolkit with Python bindings, https://github.com/WojciechMigda/TsetlinMachineToolkit
+* Rust implementation, https://github.com/KhaledSharif/TsetlinMachine
+* Rust implementation with fast bit-operations, including MNIST demo, https://github.com/jcriddle4/tsetlin_rust_mnist
+* C++ implementation, https://github.com/222464/TsetlinMachine
+* Node.js implementation, https://github.com/anon767/TsetlinMachine
+* C# implementation, https://github.com/cokobware/TsetlinMachineCSharp
+
+## Videos
+
+* Tsetlin Machine - A new paradigm for pervasive AI. DATE SCONA Workshop presentation by Adrian Wheeldon, Microsystems Research Group, Newcastle University. https://youtu.be/TaspuovmSR8
+* Tsetlin Machine on Iris Data Set Demo with Handheld MignonAI (http://www.mignon.ai). Presentation by Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/BzaPGByX-hg
+* Predicting and explaining economic growth using real-time interpretable learning. Presentation by Christian D. Blakely, PwC Switzerland. https://youtu.be/J6K7V7V7ayo
+* Early detection of breast cancer from a simple blood test. Presentation by Christian D. Blakely, PwC Switzerland. https://youtu.be/FrHN_aRLRug
+
+## Tutorials
+
+Convolutional Tsetlin Machine tutorial, https://github.com/cair/convolutional-tsetlin-machine-tutorial
 
 ## Other Tsetlin Machine Architectures
 
