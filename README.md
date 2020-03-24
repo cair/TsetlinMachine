@@ -29,7 +29,7 @@ A basic Tsetlin Machine takes a vector <img src="http://latex.codecogs.com/svg.l
 </p>
 
 <p align="left">
-I.e., classification is performed based on a majority vote, with the positive clauses voting for <img src="http://latex.codecogs.com/svg.latex?y=1" border="0"/>
+In other words, classification is performed based on a majority vote, with the positive clauses voting for <img src="http://latex.codecogs.com/svg.latex?y=1" border="0"/>
  and the negative for <img src="http://latex.codecogs.com/svg.latex?y=0" border="0"/>. The classifier
 <p align="center">
 <img src="http://latex.codecogs.com/svg.latex?\hat{y} = u\left(x_1 \bar{x}_2 + \bar{x}_1 x_2 - x_1 x_2 - \bar{x}_1 \bar{x}_2\right)" border="0"/>
