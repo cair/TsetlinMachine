@@ -90,6 +90,11 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 * Node.js implementation, https://github.com/anon767/TsetlinMachine
 * C# implementation, https://github.com/cokobware/TsetlinMachineCSharp
 
+## Other Architectures
+
+* The Convolutional Tsetlin Machine, https://github.com/cair/convolutional-tsetlin-machine
+* The Regression Tsetlin Machine, https://github.com/cair/regression-tsetlin-machine
+
 ## Videos
 
 * Tsetlin Machine - A new paradigm for pervasive AI. DATE SCONA Workshop presentation by Adrian Wheeldon, Microsystems Research Group, Newcastle University. https://youtu.be/TaspuovmSR8
@@ -100,11 +105,6 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 ## Tutorials
 
 Convolutional Tsetlin Machine tutorial, https://github.com/cair/convolutional-tsetlin-machine-tutorial
-
-## Other Architectures
-
-* The Convolutional Tsetlin Machine, https://github.com/cair/convolutional-tsetlin-machine
-* The Regression Tsetlin Machine, https://github.com/cair/regression-tsetlin-machine
 
 ## Acknowledgements
 
