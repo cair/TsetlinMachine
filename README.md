@@ -101,7 +101,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 
 Convolutional Tsetlin Machine tutorial, https://github.com/cair/convolutional-tsetlin-machine-tutorial
 
-## Other Tsetlin Machine Architectures
+## Other Architectures
 
 * The Convolutional Tsetlin Machine, https://github.com/cair/convolutional-tsetlin-machine
 * The Regression Tsetlin Machine, https://github.com/cair/regression-tsetlin-machine
