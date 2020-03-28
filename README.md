@@ -25,11 +25,11 @@ A Tsetlin Machine pattern is formulated as a conjunctive clause <img src="http:/
 </p>
 
 <p align="left">
-  The number of clauses employed is a user set parameter <img src="http://latex.codecogs.com/svg.latex?m" border="0"/>. Half of the clauses are assigned positive polarity. The other half is assigned negative polarity. The clause outputs, in turn, are combined into a classification decision through summation and thresholding using the unit step function <img src="http://latex.codecogs.com/svg.latex?u" border="0"/>:
+  The number of clauses employed is a user set parameter <img src="http://latex.codecogs.com/svg.latex?n" border="0"/>. Half of the clauses are assigned positive polarity. The other half is assigned negative polarity. The clause outputs, in turn, are combined into a classification decision through summation and thresholding using the unit step function <img src="http://latex.codecogs.com/svg.latex?u" border="0"/>:
 </p>
 
 <p align="center">
-<img src="http://latex.codecogs.com/svg.latex?\hat{y} = u\left(\sum_{j=1}^{m/2} C_j^+(X) - \sum_{j=1}^{m/2} C_j^-(X)\right)" border="0"/>
+<img src="http://latex.codecogs.com/svg.latex?\hat{y} = u\left(\sum_{j=1}^{n/2} C_j^+(X) - \sum_{j=1}^{n/2} C_j^-(X)\right)" border="0"/>
 </p>
 
 <p align="left">
