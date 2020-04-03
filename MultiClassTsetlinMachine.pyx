@@ -274,7 +274,7 @@ cdef class MultiClassTsetlinMachine:
 			if 1.0*rand()/RAND_MAX > (1.0/(self.threshold*2))*(self.threshold + self.class_sum[negative_target_class]):
 				continue
 
-			if self.clause_sign[negative_target_class,j,1] > 0:
+			if self.clause_sign[negative_target_class,j,1] >= 0:
 				# Type II Feedback
 				self.feedback_to_clauses[self.clause_sign[negative_target_class,j,0]] -= 1
 
