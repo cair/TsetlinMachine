@@ -253,22 +253,18 @@ cdef class MultiClassTsetlinMachine:
 		### Calculate Feedback to Clauses ###
 		#####################################
 
-		# Initialize feedback to clauses
-		for j in xrange(self.number_of_clauses):
-			self.feedback_to_clauses[j] = 0
-
 		# Calculate feedback to clauses
 		for j in xrange(self.clause_count[target_class]):
 			if 1.0*rand()/RAND_MAX > (1.0/(self.threshold*2))*(self.threshold - self.class_sum[target_class]):
 				continue
 
-			if self.clause_sign[target_class,j,1] > 0:
+			if self.clause_sign[target_class,j,1] >= 0:
 				# Type I Feedback				
-				self.feedback_to_clauses[self.clause_sign[target_class,j,0]] += 1
+				self.feedback_to_clauses[self.clause_sign[target_class,j,0]] = 1
 
 			elif self.clause_sign[target_class,j,1] < 0:
 				# Type II Feedback
-				self.feedback_to_clauses[self.clause_sign[target_class,j,0]] -= 1
+				self.feedback_to_clauses[self.clause_sign[target_class,j,0]] = -1
 
 		for j in xrange(self.clause_count[negative_target_class]):
 			if 1.0*rand()/RAND_MAX > (1.0/(self.threshold*2))*(self.threshold + self.class_sum[negative_target_class]):
@@ -276,11 +272,11 @@ cdef class MultiClassTsetlinMachine:
 
 			if self.clause_sign[negative_target_class,j,1] > 0:
 				# Type II Feedback
-				self.feedback_to_clauses[self.clause_sign[negative_target_class,j,0]] -= 1
+				self.feedback_to_clauses[self.clause_sign[negative_target_class,j,0]] = -1
 
 			elif self.clause_sign[negative_target_class,j,1] < 0:
 				# Type I Feedback
-				self.feedback_to_clauses[self.clause_sign[negative_target_class,j,0]] += 1
+				self.feedback_to_clauses[self.clause_sign[negative_target_class,j,0]] = 1
 		
 		#################################
 		### Train Invididual Automata ###
