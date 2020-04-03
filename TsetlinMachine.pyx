@@ -232,7 +232,7 @@ cdef class TsetlinMachine:
 				if 1.0*rand()/RAND_MAX > 1.0*(self.threshold + output_sum)/(2*self.threshold):
 					continue
 
-				if self.clause_sign[j] > 0:
+				if self.clause_sign[j] >= 0:
 					# Type II Feedback
 					self.feedback_to_clauses[j] -= 1
 
