@@ -1,4 +1,4 @@
-# Copyright (c) 2019 Ole-Christoffer Granmo
+# Copyright (c) 2020 Ole-Christoffer Granmo
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -230,11 +230,11 @@ cdef class TsetlinMachine:
 
 				if self.clause_sign[j] > 0:
 					# Type II Feedback
-					self.feedback_to_clauses[j] -= 1
+					self.feedback_to_clauses[j] = -1
 
 				elif self.clause_sign[j] < 0:
 					# Type I Feedback
-					self.feedback_to_clauses[j] += 1
+					self.feedback_to_clauses[j] = 1
 	
 		for j in xrange(self.number_of_clauses):
 			if self.feedback_to_clauses[j] > 0:
