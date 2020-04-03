@@ -209,6 +209,10 @@ cdef class TsetlinMachine:
 		### Calculate Feedback to Clauses ###
 		#####################################
 
+		# Initialize feedback to clauses
+		for j in xrange(self.number_of_clauses):
+			self.feedback_to_clauses[j] = 0
+			
 		if y == 1:
 			# Calculate feedback to clauses
 			for j in xrange(self.number_of_clauses):
@@ -217,11 +221,11 @@ cdef class TsetlinMachine:
 
 				if self.clause_sign[j] >= 0:
 					# Type I Feedback				
-					self.feedback_to_clauses[j] = 1
+					self.feedback_to_clauses[j] += 1
 
 				elif self.clause_sign[j] < 0:
 					# Type II Feedback
-					self.feedback_to_clauses[j] = -1
+					self.feedback_to_clauses[j] -= 1
 
 		elif y == 0:
 			for j in xrange(self.number_of_clauses):
@@ -230,11 +234,11 @@ cdef class TsetlinMachine:
 
 				if self.clause_sign[j] > 0:
 					# Type II Feedback
-					self.feedback_to_clauses[j] = -1
+					self.feedback_to_clauses[j] -= 1
 
 				elif self.clause_sign[j] < 0:
 					# Type I Feedback
-					self.feedback_to_clauses[j] = 1
+					self.feedback_to_clauses[j] += 1
 	
 		for j in xrange(self.number_of_clauses):
 			if self.feedback_to_clauses[j] > 0:
