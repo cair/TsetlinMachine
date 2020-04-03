@@ -265,7 +265,6 @@ cdef class MultiClassTsetlinMachine:
 			if self.clause_sign[target_class,j,1] >= 0:
 				# Type I Feedback				
 				self.feedback_to_clauses[self.clause_sign[target_class,j,0]] = 1
-
 			else:
 				# Type II Feedback
 				self.feedback_to_clauses[self.clause_sign[target_class,j,0]] = -1
@@ -277,7 +276,6 @@ cdef class MultiClassTsetlinMachine:
 			if self.clause_sign[negative_target_class,j,1] >= 0:
 				# Type II Feedback
 				self.feedback_to_clauses[self.clause_sign[negative_target_class,j,0]] = -1
-
 			else:
 				# Type I Feedback
 				self.feedback_to_clauses[self.clause_sign[negative_target_class,j,0]] = 1
