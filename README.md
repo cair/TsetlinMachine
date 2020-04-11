@@ -21,7 +21,7 @@ A Tsetlin Machine pattern is formulated as a conjunctive clause <img src="http:/
 </p>
 
 <p align="left">
-  For example, the clause <img src="http://latex.codecogs.com/svg.latex?C_j(X) = x_1 x_2" border="0"/> consists of the literals <img src="http://latex.codecogs.com/svg.latex?L_j = \{x_1, x_2\}" border="0"/> and outputs <img src="http://latex.codecogs.com/svg.latex?1" border="0"/> iff <img src="http://latex.codecogs.com/svg.latex?x_1 = x_2 = 1" border="0"/>.
+  For example, the clause <img src="http://latex.codecogs.com/svg.latex?C_j(X) = x_1 {\land} x_2 = x_1 x_2" border="0"/> consists of the literals <img src="http://latex.codecogs.com/svg.latex?L_j = \{x_1, x_2\}" border="0"/> and outputs <img src="http://latex.codecogs.com/svg.latex?1" border="0"/> iff <img src="http://latex.codecogs.com/svg.latex?x_1 = x_2 = 1" border="0"/>.
 </p>
 
 <p align="left">
