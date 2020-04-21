@@ -25,7 +25,7 @@ A Tsetlin Machine pattern is formulated as a conjunctive clause <img src="http:/
 </p>
 
 <p align="left">
-  The number of clauses employed is a user set parameter <img src="http://latex.codecogs.com/svg.latex?n" border="0"/>. Half of the clauses are assigned positive polarity. The other half is assigned negative polarity. The clause outputs, in turn, are combined into a classification decision through summation and thresholding using the unit step function, <img src="http://latex.codecogs.com/svg.latex?u(x) = 1 ~\mathbf{if}~ x \ge 0 ~\mathbf{else}~ 0" border="0"/>:
+  The number of clauses employed is a user set parameter <img src="http://latex.codecogs.com/svg.latex?n" border="0"/>. Half of the clauses are assigned positive polarity. The other half is assigned negative polarity. The clause outputs, in turn, are combined into a classification decision through summation and thresholding using the unit step function <img src="http://latex.codecogs.com/svg.latex?u(v) = 1 ~\mathbf{if}~ v \ge 0 ~\mathbf{else}~ 0" border="0"/>:
 </p>
 
 <p align="center">
