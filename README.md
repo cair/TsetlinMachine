@@ -29,7 +29,7 @@ For example, the clause <img src="http://latex.codecogs.com/svg.latex?C_j(X) = x
 </p>
 
 <p align="center">
-<img src="http://latex.codecogs.com/svg.latex?\hat{y} = u\left(\sum_{j=1}^{n/2} C_j^+(X) - \sum_{j=1}^{n/2} C_j^-(X)\right)" border="0"/>
+<img src="http://latex.codecogs.com/svg.latex?\hat{y} = u\left(\sum_{j=1}^{n/2} C_j^+(X) - \sum_{j=1}^{n/2} C_j^-(X)\right)" border="0" valign="middle"/>.
 </p>
 
 <p align="left">
