@@ -36,7 +36,7 @@ For example, the clause <img src="http://latex.codecogs.com/svg.latex?C_j(X) = x
 In other words, classification is based on a majority vote, with the positive clauses voting for <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>
  and the negative for <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>. The classifier
 <p align="center">
-<img src="http://latex.codecogs.com/svg.latex?\hat{y} = u\left(x_1 \bar{x}_2 + \bar{x}_1 x_2 - x_1 x_2 - \bar{x}_1 \bar{x}_2\right)" border="0"/>
+<img src="http://latex.codecogs.com/svg.latex?\hat{y} = u\left(x_1 \bar{x}_2 + \bar{x}_1 x_2 - x_1 x_2 - \bar{x}_1 \bar{x}_2\right)" border="0" valign="middle"/>,
 </p>
 for instance, captures the XOR-relation.
 </p>
