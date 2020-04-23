@@ -17,7 +17,7 @@ A Tsetlin Machine pattern is formulated as a conjunctive clause <img src="http:/
 </p>
 
 <p align="center">
-  <img src="http://latex.codecogs.com/svg.latex?C_j (X)=\bigwedge_{{{l}_{k}} {\in} L_j} l_k = \prod_{{{l}_{k}} {\in} L_j} l_k" border="0"/>
+  <img src="http://latex.codecogs.com/svg.latex?C_j (X)=\bigwedge_{{{l}_{k}} {\in} L_j} l_k = \prod_{{{l}_{k}} {\in} L_j} l_k" border="0" valign="middle"/>.
 </p>
 
 <p align="left">
