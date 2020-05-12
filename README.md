@@ -113,6 +113,14 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@article{abeyrathna2020integer,
+  author = {Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
+  title = "{Extending the Tsetlin Machine With Integer-Weighted Clauses for Increased Interpretability}",
+  journal = {arXiv preprint arXiv:2005.05131}, year = {2020}
+}
+```
+
+```bash
 @InProceedings{gorji2020indexing,
   title="{Increasing the Inference and Learning Speed of Tsetlin Machines with Clause Indexing}",
   author={Saeed {Gorji} and Ole Christoffer {Granmo} and Sondre {Glimsdal} and Jonathan {Edwards} and Morten {Goodwin}},
@@ -123,7 +131,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
-@InProceedings{abeyrathna2020integer,
+@InProceedings{abeyrathna2020integerregression,
   title="{A Regression Tsetlin Machine with Integer Weighted Clauses for Compact Pattern Representation,}",
   author={Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
   booktitle={International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems},
