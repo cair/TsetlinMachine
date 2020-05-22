@@ -101,7 +101,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 * Tsetlin Machine on Iris Data Set Demo with Handheld MignonAI (http://www.mignon.ai). Presentation by Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/BzaPGByX-hg
 * Predicting and explaining economic growth using real-time interpretable learning. Presentation by Christian D. Blakely, PwC Switzerland. https://youtu.be/J6K7V7V7ayo
 * Early detection of breast cancer from a simple blood test. Presentation by Christian D. Blakely, PwC Switzerland. https://youtu.be/FrHN_aRLRug
-* Recent advances in Tsetlin Machines. NORA.ai Webinar by Ole-Christoffer Granmo, CAIR, University of Agder. https://youtu.be/GHelDh3bN00
+* Recent advances in Tsetlin Machines. NORA.ai Webinar presentation by Ole-Christoffer Granmo, CAIR, University of Agder. https://youtu.be/GHelDh3bN00
 
 ## Tutorials
 
