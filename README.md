@@ -125,6 +125,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@article{lavrova2020,
+  author = {D. S. {Lavrova} and N. N. {Eliseev}},
+  title = "{Network Attacks Detection based on Tsetlin Machine}",
+  pages = {17-23},
+  journal = {Information Security Problems. Computer Systems.}, year = {2020}
+}
+```
+
+```bash
 @article{abeyrathna2020integer,
   author = {Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
   title = "{Extending the Tsetlin Machine With Integer-Weighted Clauses for Increased Interpretability}",
