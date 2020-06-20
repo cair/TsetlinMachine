@@ -115,6 +115,16 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@InProceedings{shafik2020explainability,
+  title="{Explainability and Dependability Analysis of Learning Automata based AI Hardware}",
+  author={Rishad {Shafik} and Adrian {Wheeldon} and Alex {Yakovlev}},
+  booktitle={IEEE 26th International Symposium on On-Line Testing and Robust System Design (IOLTS)},
+  year={2020},
+  organization={IEEE}
+}
+```
+
+```bash
 @article{abeyrathna2020integer,
   author = {Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
   title = "{Extending the Tsetlin Machine With Integer-Weighted Clauses for Increased Interpretability}",
