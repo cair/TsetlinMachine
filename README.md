@@ -115,6 +115,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@article{wheeldon2020learning, 
+  author={Adrian {Wheeldon} and Rishad {Shafik} and Tousif {Rahman} and Jie {Lei} and Alex {Yakovlev} and Ole-Christoffer {Granmo}}, 
+  journal={Philosophical Transactions of the Royal Society A},
+  title="{Learning Automata based Energy-efficient AI Hardware Design for IoT}",
+  year={2020}
+}
+```
+
+```bash
 @InProceedings{shafik2020explainability,
   title="{Explainability and Dependability Analysis of Learning Automata based AI Hardware}",
   author={Rishad {Shafik} and Adrian {Wheeldon} and Alex {Yakovlev}},
