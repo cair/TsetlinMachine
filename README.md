@@ -57,11 +57,11 @@ A Tsetlin Machine learns on-line, processing one training example <img src="http
 <b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>. An afflicted clause, <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/>, in turn, reinforces each of its Tsetlin Automata using two rules:
 </p>
 
-* <i>Include</i> is reinforced with probability <img src="http://latex.codecogs.com/svg.latex?\frac{s-1}{s}" border="0" valign="middle"/> (strongly reinforced) if the clause output is <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/>  <b>and</b> the Tsetlin Automaton's literal has value <img src="http://latex.codecogs.com/svg.latex?l_k=1" border="0" valign="middle"/>.
+* <i>Include</i> is reinforced with probability <img src="http://latex.codecogs.com/svg.latex?\frac{s-1}{s}" border="0" valign="middle"/> (strongly reinforced) if the clause output is <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/>  <b>and</b> the Tsetlin Automaton's literal has value <img src="http://latex.codecogs.com/svg.latex?l_k=1" border="0" valign="middle"/>. 
 * <i>Exclude</i> is reinforced with probability <img src="http://latex.codecogs.com/svg.latex?\frac{1}{s}" border="0" valign="middle"/> (weakly reinforced) if the clause output is <img src="http://latex.codecogs.com/svg.latex?C_j(X)=0" border="0" valign="middle"/> <b>or</b> the Tsetlin Automaton's literal has value <img src="http://latex.codecogs.com/svg.latex?l_k=0" border="0" valign="middle"/>.
 
 <p>
-  <b>Type II feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>.
+  <b>Type II feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>. Type II reinforces <i>Include</i> with probability 1 if the clause output is <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/> <b>and</b> the Tsetlin Automaton's literal has value <img src="http://latex.codecogs.com/svg.latex?l_k=0" border="0" valign="middle"/>.
 </p>
 
 <p align="left">
