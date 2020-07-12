@@ -46,7 +46,7 @@ for instance, captures the XOR-relation.
 ### Learning
 
 <p align="left">
-A clause <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/> is composed by a team of Tsetlin Automata, each Tsetlin Automaton deciding to <i>Exclude</i> or <i>Include</i> a specific literal <img src="http://latex.codecogs.com/svg.latex?l_k" border="0" valign="middle"/> in the clause (see figure above). Learning which literals to include is based on reinforcement: Type I feedback produces frequent patterns, while Type II feedback increases the discrimination power of the patterns.
+A clause <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/> is composed by a team of Tsetlin Automata, each Tsetlin Automaton deciding to <i>Include</i> or <i>Exclude</i> a specific literal <img src="http://latex.codecogs.com/svg.latex?l_k" border="0" valign="middle"/> in the clause (see figure above). Learning which literals to include is based on reinforcement: Type I feedback produces frequent patterns, while Type II feedback increases the discrimination power of the patterns.
 </p>
 
 <p align="left">
@@ -54,7 +54,7 @@ A Tsetlin Machine learns on-line, processing one training example <img src="http
 </p>
 
 <p>
-<b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>. An afflicted clause, in turn, reinforces each of its Tsetlin Automata based on the clause output <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/> and the literal value <img src="http://latex.codecogs.com/svg.latex?l_k" border="0" valign="middle"/> of the targeted Tsetlin Automaton:
+<b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>. An afflicted clause, in turn, reinforces each of its Tsetlin Automata based on the clause output <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/>, the action of the targeted Tsetlin Automaton (<i>Include</i> or <i>Exclude</i>), and the value <img src="http://latex.codecogs.com/svg.latex?l_k" border="0" valign="middle"/> of the literal assigned to the automaton:
 </p>
 
 * <i>Include</i> is rewarded and <i>Exclude</i> is penalized with probability <img src="http://latex.codecogs.com/svg.latex?\frac{s-1}{s}" border="0" valign="middle"/> <b> if</b> <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/> <b>and</b> <img src="http://latex.codecogs.com/svg.latex?l_k=1" border="0" valign="middle"/> (strong reinforcement). 
