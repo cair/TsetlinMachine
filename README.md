@@ -111,7 +111,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 * Hardware implementations, https://github.com/JieGH/Hardware_TM_Demo
 * Kivy implementation, https://github.com/DarshanaAbeyrathna/Tsetlin-Machine-Based-AI-Enabled-Mobile-App-for-Forecasting-the-Number-of-Corona-Patients
 * C implementation, https://github.com/cair/TsetlinMachineC
-* Parallelized C++ implementation with scikit-learn-compatible Python wrapper, https://github.com/WojciechMigda/Tsetlini, https://github.com/WojciechMigda/PyTsetlini
+* Parallelized C++ implementation of Multi-class and Regression Tsetlin Machine with scikit-learn-compatible Python wrapper, https://github.com/WojciechMigda/Tsetlini, https://github.com/WojciechMigda/PyTsetlini
 * Rust implementation, https://github.com/KhaledSharif/TsetlinMachine
 * Rust implementation with fast bit-operations, including MNIST demo, https://github.com/jcriddle4/tsetlin_rust_mnist
 * C++ implementation, https://github.com/222464/TsetlinMachine
