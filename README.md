@@ -50,7 +50,7 @@ A Tsetlin Machine learns on-line, processing one training example <img src="http
 </p>
 
 * <i>Include</i> is reinforced with probability <img src="http://latex.codecogs.com/svg.latex?\frac{s-1}{s}" border="0" valign="middle"/> (strongly reinforced) if the clause output is <img src="http://latex.codecogs.com/svg.latex?C_j^+(X)=1" border="0" valign="middle"/>  <b>and</b> the Tsetlin Automaton's literal has value <img src="http://latex.codecogs.com/svg.latex?l_k=1" border="0" valign="middle"/>.
-* <i>Exclude</i> is reinforced with probability <img src="http://latex.codecogs.com/svg.latex?\frac{1}{s}" border="0" valign="middle"/> (weakly reinforced) if the clause output is <img src="http://latex.codecogs.com/svg.latex?C_j^+(X)=1" border="0" valign="middle"/> <b>or</b> the Tsetlin Automaton's literal has value <img src="http://latex.codecogs.com/svg.latex?l_k=0" border="0" valign="middle"/>.
+* <i>Exclude</i> is reinforced with probability <img src="http://latex.codecogs.com/svg.latex?\frac{1}{s}" border="0" valign="middle"/> (weakly reinforced) if the clause output is <img src="http://latex.codecogs.com/svg.latex?C_j^+(X)=0" border="0" valign="middle"/> <b>or</b> the Tsetlin Automaton's literal has value <img src="http://latex.codecogs.com/svg.latex?l_k=0" border="0" valign="middle"/>.
 
 <p align="left">
 See https://arxiv.org/abs/1804.01508 for details. 
