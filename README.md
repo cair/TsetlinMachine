@@ -25,7 +25,7 @@ For example, the clause <img src="http://latex.codecogs.com/svg.latex?C_j(X) = x
 </p>
 
 <p align="left">
-  The number of clauses employed is a user set parameter <img src="http://latex.codecogs.com/svg.latex?n" border="0"/>. Half of the clauses are assigned positive polarity. The other half is assigned negative polarity. The clause outputs, in turn, are combined into a classification decision through summation and thresholding using the unit step function <img src="http://latex.codecogs.com/svg.latex?u(v) = 1 ~\mathbf{if}~ v \ge 0 ~\mathbf{else}~ 0" border="0" valign="middle"/>:
+The number of clauses employed is a user set parameter <img src="http://latex.codecogs.com/svg.latex?n" border="0"/>. Half of the clauses are assigned positive polarity. The other half is assigned negative polarity. The clause outputs, in turn, are combined into a classification decision through summation and thresholding using the unit step function <img src="http://latex.codecogs.com/svg.latex?u(v) = 1 ~\mathbf{if}~ v \ge 0 ~\mathbf{else}~ 0" border="0" valign="middle"/>:
 </p>
 
 <p align="center">
@@ -46,11 +46,15 @@ A clause is composed by a team of Tsetlin Automata, each Tsetlin Automaton decid
 </p>
 
 <p align="left">
-A Tsetlin Machine learns on-line, processing one training example <img src="http://latex.codecogs.com/svg.latex?(X, y)" border="0" valign="middle"/> at a time. Type I feedback is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>. An afflicted clause, <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/>, in turn, reinforces each of its Tsetlin Automata using two rules:
+A Tsetlin Machine learns on-line, processing one training example <img src="http://latex.codecogs.com/svg.latex?(X, y)" border="0" valign="middle"/> at a time. <b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>. An afflicted clause, <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/>, in turn, reinforces each of its Tsetlin Automata using two rules:
 </p>
 
 * <i>Include</i> is reinforced with probability <img src="http://latex.codecogs.com/svg.latex?\frac{s-1}{s}" border="0" valign="middle"/> (strongly reinforced) if the clause output is <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/>  <b>and</b> the Tsetlin Automaton's literal has value <img src="http://latex.codecogs.com/svg.latex?l_k=1" border="0" valign="middle"/>.
 * <i>Exclude</i> is reinforced with probability <img src="http://latex.codecogs.com/svg.latex?\frac{1}{s}" border="0" valign="middle"/> (weakly reinforced) if the clause output is <img src="http://latex.codecogs.com/svg.latex?C_j(X)=0" border="0" valign="middle"/> <b>or</b> the Tsetlin Automaton's literal has value <img src="http://latex.codecogs.com/svg.latex?l_k=0" border="0" valign="middle"/>.
+
+<p>
+  <b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>.
+</p>
 
 <p align="left">
 See https://arxiv.org/abs/1804.01508 for details. 
