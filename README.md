@@ -61,6 +61,10 @@ A Tsetlin Machine learns on-line, processing one training example <img src="http
 * <i>Include</i> is penalized and <i>Exclude</i> is rewarded with probability <img src="http://latex.codecogs.com/svg.latex?\frac{1}{s}" border="0" valign="middle"/> <b>if</b> clause output is <img src="http://latex.codecogs.com/svg.latex?C_j(X)=0" border="0" valign="middle"/> <b>or</b> Tsetlin Automaton's literal value is <img src="http://latex.codecogs.com/svg.latex?l_k=0" border="0" valign="middle"/> (weak reinforcement).
 
 <p>
+Above, <img src="http://latex.codecogs.com/svg.latex?s" border="0" valign="middle"/> is a hyperparameter that controls the frequency of the patterns produced.
+</p>
+
+<p>
 <b>Type II feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>. It penalizes <i>Exclude</i> with probability 1 <b>if</b> clause output is <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/> <b>and</b> Tsetlin Automaton's literal value is <img src="http://latex.codecogs.com/svg.latex?l_k=0" border="0" valign="middle"/>.
 </p>
 
