@@ -42,7 +42,19 @@ for instance, captures the XOR-relation.
 </p>
 
 <p align="left">
-A clause is composed by a team of Tsetlin Automata, each Tsetlin Automaton deciding to <i>Exclude</i> or <i>Include</i> a specific literal in the clause. Learning which literals to include is based on reinforcement: Type I feedback is designed to produce frequent patterns, while Type II feedback increases the discrimination power of the patterns. See https://arxiv.org/abs/1804.01508 for details. 
+A clause is composed by a team of Tsetlin Automata, each Tsetlin Automaton deciding to <i>Exclude</i> or <i>Include</i> a specific literal in the clause. Learning which literals to include is based on reinforcement: Type I feedback is designed to produce frequent patterns, while Type II feedback increases the discrimination power of the patterns.
+</p>
+
+<p align="left">
+A Tsetlin Machine learns on-line, processing one training example <img src="http://latex.codecogs.com/svg.latex?(X, y)" border="0" valign="middle"/> at a time. Type I feedback is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>. An afflicted clause, <img src="http://latex.codecogs.com/svg.latex?C_j^+(X)" border="0" valign="middle"/>, in turn, reinforces each of its Tsetlin Automata using two rules:
+</p>
+
+* <i>Include</i> is <b>strongly</b> reinforced (with probability <img src="http://latex.codecogs.com/svg.latex?\frac{s-1}{s}" border="0" valign="middle"/>) if the clause output is <img src="http://latex.codecogs.com/svg.latex?C_j^+(X)=1" border="0" valign="middle"/>  <b>and</b> the Tsetlin Automaton's literal has value <img src="http://latex.codecogs.com/svg.latex?l_k=1" border="0" valign="middle"/>.
+
+* <i>Exclude</i> is <b>weakly</b> reinforced (with probability <img src="http://latex.codecogs.com/svg.latex?\frac{1}{s}" border="0" valign="middle"/>) if the clause output is <img src="http://latex.codecogs.com/svg.latex?C_j^+(X)=1" border="0" valign="middle"/> <b>or</b> the Tsetlin Automaton's literal has value <img src="http://latex.codecogs.com/svg.latex?l_k=0" border="0" valign="middle"/>.
+
+<p align="left">
+See https://arxiv.org/abs/1804.01508 for details. 
 </p>
 
 ## Learning Behaviour
