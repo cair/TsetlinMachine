@@ -46,7 +46,7 @@ for instance, captures the XOR-relation.
 ### Learning
 
 <p align="left">
-A clause <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/> is composed by a team of Tsetlin Automata, each Tsetlin Automaton deciding to <i>Exclude</i> or <i>Include</i> a specific literal <img src="http://latex.codecogs.com/svg.latex?l_k" border="0" valign="middle"/> in the clause. Learning which literals to include is based on reinforcement: Type I feedback is designed to produce frequent patterns, while Type II feedback increases the discrimination power of the patterns.
+A clause <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/> is composed by a team of Tsetlin Automata, each Tsetlin Automaton deciding to <i>Exclude</i> or <i>Include</i> a specific literal <img src="http://latex.codecogs.com/svg.latex?l_k" border="0" valign="middle"/> in the clause. Learning which literals to include is based on reinforcement: Type I feedback produces frequent patterns, while Type II feedback increases the discrimination power of the patterns.
 </p>
 
 <p align="left">
