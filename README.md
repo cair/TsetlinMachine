@@ -54,7 +54,7 @@ A Tsetlin Machine learns on-line, processing one training example <img src="http
 </p>
 
 <p>
-<b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>. An afflicted clause, in turn, reinforces each of its Tsetlin Automata based on the clause output <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/> and the value of the targeted Tsetlin Automaton's literal <img src="http://latex.codecogs.com/svg.latex?l_k" border="0" valign="middle"/>:
+<b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>. An afflicted clause, in turn, reinforces each of its Tsetlin Automata based on the clause output <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/> and the literal value <img src="http://latex.codecogs.com/svg.latex?l_k" border="0" valign="middle"/> of the targeted Tsetlin Automaton:
 </p>
 
 * <i>Include</i> is rewarded and <i>Exclude</i> is penalized with probability <img src="http://latex.codecogs.com/svg.latex?\frac{s-1}{s}" border="0" valign="middle"/> <b>if</b> <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/> <b>and</b> <img src="http://latex.codecogs.com/svg.latex?l_k=1" border="0" valign="middle"/> (strong reinforcement). 
