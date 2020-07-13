@@ -65,7 +65,7 @@ Above, <img src="http://latex.codecogs.com/svg.latex?s" border="0" valign="middl
 </p>
 
 <p>
-<b>Type II feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>. It penalizes <i>Exclude</i> with probability 1 <b>if</b> <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/> <b>and</b> <img src="http://latex.codecogs.com/svg.latex?l_k=0" border="0" valign="middle"/>.
+<b>Type II feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>. It penalizes <i>Exclude</i> with probability 1 <b>if</b> <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/> <b>and</b> <img src="http://latex.codecogs.com/svg.latex?l_k=0" border="0" valign="middle"/>. This feedback is strong and produces candidate literals for discrimination.
 </p>
 
 <p align="left">
