@@ -51,7 +51,7 @@ A clause <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign
 
 <p align="left">
 A Tsetlin Machine learns on-line, processing one training example <img src="http://latex.codecogs.com/svg.latex?(X, y)" border="0" valign="middle"/> at a time.
-</p
+</p>
 
 <p align="left">
 <b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>. An afflicted clause, in turn, reinforces each of its Tsetlin Automata based on: (i) the clause output <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/>; (ii) the action of the targeted Tsetlin Automaton - <i>Include</i> or <i>Exclude</i>; and (iii) the value of the literal <img src="http://latex.codecogs.com/svg.latex?l_k" border="0" valign="middle"/> assigned to the automaton. Two rules govern Type I feedback:
