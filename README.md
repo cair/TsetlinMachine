@@ -68,7 +68,7 @@ Above, <img src="http://latex.codecogs.com/svg.latex?s" border="0" valign="middl
 </p>
 
 <p>
-<b>Resource allocation</b> dynamics ensures that clauses distribute themselves across the frequent patterns, rather than missing some and overconcentrating on others. That is, as the sum of the clause output approaches a user-set voting sum target <img src="http://latex.codecogs.com/svg.latex?T" border="0" valign="middle"/>, clause rewarding frequency gradually drops to zero.
+<b>Resource allocation</b> dynamics ensures that clauses distribute themselves across the frequent patterns, rather than missing some and overconcentrating on others. That is, as the clause output sum approaches a user-set target <img src="http://latex.codecogs.com/svg.latex?T" border="0" valign="middle"/>, for a given input <img src="http://latex.codecogs.com/svg.latex?X" border="0" valign="middle"/>, clause rewarding frequency gradually drops to zero.
 <p/>
 
 <p>
