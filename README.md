@@ -54,7 +54,7 @@ A Tsetlin Machine learns on-line, processing one training example <img src="http
 </p>
 
 <p>
-<b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0Explainability and Dependability Analysis of Learning Automata based AI Hardware
+<b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>.
 
 * <i>Include</i> is rewarded and <i>Exclude</i> is penalized with probability <img src="http://latex.codecogs.com/svg.latex?\frac{s-1}{s}" border="0" valign="middle"/> <b>if</b> <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/> <b>and</b> <img src="http://latex.codecogs.com/svg.latex?l_k=1" border="0" valign="middle"/>. This reinforcement is strong and makes the clause remember and refine the pattern it recognizes in <img src="http://latex.codecogs.com/svg.latex?X" border="0" valign="middle"/>. 
 * <i>Include</i> is penalized and <i>Exclude</i> is rewarded with probability <img src="http://latex.codecogs.com/svg.latex?\frac{1}{s}" border="0" valign="middle"/> <b>if</b> <img src="http://latex.codecogs.com/svg.latex?C_j(X)=0" border="0" valign="middle"/> <b>or</b> <img src="http://latex.codecogs.com/svg.latex?l_k=0" border="0" valign="middle"/>. This reinforcement is weak and coarsens infrequent patterns, making them frequent.
