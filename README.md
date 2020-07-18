@@ -75,7 +75,7 @@ Above, <img src="http://latex.codecogs.com/svg.latex?s" border="0" valign="middl
   <img src="http://latex.codecogs.com/svg.latex?v = \sum_{j=1}^{n/2} C_j^+(X) - \sum_{j=1}^{n/2} C_j^-(X)" border="0" valign="middle"/>
 </p>
 <p>
-approaches a user-set target <img src="http://latex.codecogs.com/svg.latex?-T" border="0" valign="middle"/> for <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and <img src="http://latex.codecogs.com/svg.latex?T" border="0" valign="middle"/> for <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>.
+approaches a user-set target <img src="http://latex.codecogs.com/svg.latex?-T" border="0" valign="middle"/> for <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and <img src="http://latex.codecogs.com/svg.latex?T" border="0" valign="middle"/> for <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>.
 <p/>
 
 <p>
