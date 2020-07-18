@@ -69,7 +69,13 @@ Above, <img src="http://latex.codecogs.com/svg.latex?s" border="0" valign="middl
 </p>
 
 <p>
-<b>Resource allocation</b> dynamics ensure that clauses distribute themselves across the frequent patterns, rather than missing some and overconcentrating on others. That is, as the clause output sum approaches a user-set target <img src="http://latex.codecogs.com/svg.latex?T" border="0" valign="middle"/>, for a given input <img src="http://latex.codecogs.com/svg.latex?X" border="0" valign="middle"/>, clause rewarding probability gradually drops to zero.
+<b>Resource allocation</b> dynamics ensure that clauses distribute themselves across the frequent patterns, rather than missing some and overconcentrating on others. That is, for any input <img src="http://latex.codecogs.com/svg.latex?X" border="0" valign="middle"/>, the probability of reinforcing a clause gradually drops to zero as the clause output sum
+</p>
+<p align="center">
+  <img src="http://latex.codecogs.com/svg.latex?v = \sum_{j=1}^{n/2} C_j^+(X) - \sum_{j=1}^{n/2} C_j^-(X)" border="0" valign="middle"/>
+</p>
+<p>
+approaches a user-set target <img src="http://latex.codecogs.com/svg.latex?T" border="0" valign="middle"/>.
 <p/>
 
 <p>
