@@ -68,7 +68,11 @@ Above, <img src="http://latex.codecogs.com/svg.latex?s" border="0" valign="middl
 <b>Type II feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>. It penalizes <i>Exclude</i> with probability 1 <b>if</b> <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/> <b>and</b> <img src="http://latex.codecogs.com/svg.latex?l_k=0" border="0" valign="middle"/>. This feedback is strong and produces candidate literals for discriminating between <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>.
 </p>
 
-<p align="left">
+<p>
+<b>Resource allocation</b> dynamics ensures that clauses distribute themselveshe across the available patterns, rather than missing some and over-concentrating on others.
+<p/>
+
+<p>
 See https://arxiv.org/abs/1804.01508 for details. 
 </p>
 
