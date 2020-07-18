@@ -69,7 +69,7 @@ Above, <img src="http://latex.codecogs.com/svg.latex?s" border="0" valign="middl
 </p>
 
 <p>
-<b>Resource allocation</b> dynamics ensures that clauses distribute themselveshe across the available patterns, rather than missing some and over-concentrating on others.
+<b>Resource allocation</b> dynamics ensures that clauses distribute themselves across the frequent patterns, rather than missing some and over-concentrating on others.
 <p/>
 
 <p>
