@@ -54,8 +54,7 @@ A Tsetlin Machine learns on-line, processing one training example <img src="http
 </p>
 
 <p>
-<b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>. An afflicted clause, in turn, reinforces each of its Tsetlin Automata based on: (i) the clause output <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/>; (2) the action of the targeted Tsetlin Automaton - <i>Include</i> or <i>Exclude</i>; and (iii) the value of the literal <img src="http://latex.codecogs.com/svg.latex?l_k" border="0" valign="middle"/> assigned to the automaton. Two rules govern Type I feedback:
-</p>
+<b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0Explainability and Dependability Analysis of Learning Automata based AI Hardware
 
 * <i>Include</i> is rewarded and <i>Exclude</i> is penalized with probability <img src="http://latex.codecogs.com/svg.latex?\frac{s-1}{s}" border="0" valign="middle"/> <b>if</b> <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/> <b>and</b> <img src="http://latex.codecogs.com/svg.latex?l_k=1" border="0" valign="middle"/>. This reinforcement is strong and makes the clause remember and refine the pattern it recognizes in <img src="http://latex.codecogs.com/svg.latex?X" border="0" valign="middle"/>. 
 * <i>Include</i> is penalized and <i>Exclude</i> is rewarded with probability <img src="http://latex.codecogs.com/svg.latex?\frac{1}{s}" border="0" valign="middle"/> <b>if</b> <img src="http://latex.codecogs.com/svg.latex?C_j(X)=0" border="0" valign="middle"/> <b>or</b> <img src="http://latex.codecogs.com/svg.latex?l_k=0" border="0" valign="middle"/>. This reinforcement is weak and coarsens infrequent patterns, making them frequent.
@@ -69,7 +68,7 @@ Above, <img src="http://latex.codecogs.com/svg.latex?s" border="0" valign="middl
 </p>
 
 <p>
-<b>Resource allocation</b> dynamics ensures that clauses distribute themselves across the frequent patterns, rather than missing some and over-concentrating on others.
+<b>Resource allocation</b> dynamics ensures that clauses distribute themselves across the frequent patterns, rather than missing some and overconcentrating on others. A voting sum target <img src="http://latex.codecogs.com/svg.latex?T" border="0" valign="middle"/> ensures this.
 <p/>
 
 <p>
