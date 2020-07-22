@@ -81,7 +81,7 @@ approaches a user-set target <img src="http://latex.codecogs.com/svg.latex?-T" b
   <img width="60%" src="https://github.com/olegranmo/blob/blob/master/Clause_Activation_Probability_y1.png">
 </p>
 <p>
-<b>Remark.</b> If the voting sum <img src="http://latex.codecogs.com/svg.latex?v" border="0" valign="middle"/> equals the target <img src="http://latex.codecogs.com/svg.latex?T" border="0" valign="middle"/>, the pattern associated with the input <img src="http://latex.codecogs.com/svg.latex?X" border="0" valign="middle"/> has been successfully learnt. Accordingly, no clauses are reinforced, meaning that the Tsetlin Automata do not receive any feedback and are free to learn other patterns.
+<b>Remark.</b> If the voting sum <img src="http://latex.codecogs.com/svg.latex?v" border="0" valign="middle"/> equals or exceeds the target <img src="http://latex.codecogs.com/svg.latex?T" border="0" valign="middle"/>, the pattern associated with the input <img src="http://latex.codecogs.com/svg.latex?X" border="0" valign="middle"/> has been successfully learnt. Accordingly, no clauses are reinforced, meaning that the Tsetlin Automata do not receive any feedback and are free to learn other patterns.
 </p>
 
 <p>
