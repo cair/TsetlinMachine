@@ -75,8 +75,14 @@ Above, <img src="http://latex.codecogs.com/svg.latex?s" border="0" valign="middl
   <img src="http://latex.codecogs.com/svg.latex?v = \sum_{j=1}^{n/2} C_j^+(X) - \sum_{j=1}^{n/2} C_j^-(X)" border="0" valign="middle"/>
 </p>
 <p>
-approaches a user-set target <img src="http://latex.codecogs.com/svg.latex?-T" border="0" valign="middle"/> for <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and <img src="http://latex.codecogs.com/svg.latex?T" border="0" valign="middle"/> for <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>.
+approaches a user-set target <img src="http://latex.codecogs.com/svg.latex?-T" border="0" valign="middle"/> for <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and <img src="http://latex.codecogs.com/svg.latex?T" border="0" valign="middle"/> for <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>. To exemplify, the probability that a clause is reinforced when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and <img src="http://latex.codecogs.com/svg.latex?T=2" border="0" valign="middle"/> is plotted below:
 <p/>
+<p align="center">
+  <img width="60%" src="https://github.com/olegranmo/blob/blob/master/Clause_Activation_Probability_y1.png">
+</p>
+<p>
+If a clause is not reinforced, no feedback is given to the Tsetlin Automata of that clause.
+</p>
 
 <p>
 See https://arxiv.org/abs/1804.01508 for details. 
