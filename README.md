@@ -160,6 +160,24 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@article{zhang2020convergence,
+  title="{On the Convergence of Tsetlin Machines for the IDENTITY- and NOT Operators}",
+  author={Xuan Zhang and Lei Jiao and Ole-Christoffer Granmo and Morten Goodwin},
+  journal = {arXiv preprint arXiv:2007.14268}, year = {2020},
+  url = {https://arxiv.org/abs/2007.14268}
+}
+```
+
+```bash
+@article{blakely2020closedform,
+  title="{Closed-Form Expressions for Global and Local Interpretation of Tsetlin Machines with Applications to Explaining High-Dimensional Data}",
+  author={Christian D. Blakely and Ole-Christoffer Granmo},
+  journal = {arXiv preprint arXiv:2007.13885}, year = {2020},
+  url = {https://arxiv.org/abs/2007.13885}
+}
+```
+
+```bash
 @article{abeyrathna2020deterministic,
   title="{A Novel Multi-Step Finite-State Automaton for Arbitrarily Deterministic Tsetlin Machine Learning}",
   author={K. Darshana Abeyrathna and Ole-Christoffer Granmo and Rishad Shafik and Alex Yakovlev and Adrian Wheeldon and Jie Lei and Morten Goodwin},
