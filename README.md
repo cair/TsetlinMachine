@@ -144,6 +144,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 
 * Explainability and Dependability Analysis of Learning Automata based AI Hardware. IOLTS presentation by Rishad Shafik, Microsystems Research Group, Newcastle University. https://youtu.be/IjzZY0fDYiA
 * Tsetlin Machine - A new paradigm for pervasive AI. DATE SCONA Workshop presentation by Adrian Wheeldon, Microsystems Research Group, Newcastle University. https://youtu.be/TaspuovmSR8
+* Synthesising 6 states Tsetlin Automaton using Sequential Logic in Logisim. Presentation by Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/XzWSPo7GF94
 * Tsetlin Machine on Iris Data Set Demo with Handheld MignonAI (http://www.mignon.ai). Presentation by Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/BzaPGByX-hg
 * Interpretable clustering and dimension reduction with Tsetlin automata machine learning. Presentation by Christian D. Blakely, PwC Switzerland. https://youtu.be/5-09LOGLcV8
 * Predicting and explaining economic growth using real-time interpretable learning. Presentation by Christian D. Blakely, PwC Switzerland. https://youtu.be/J6K7V7V7ayo
