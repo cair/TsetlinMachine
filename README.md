@@ -146,7 +146,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 
 ## Videos
 
-* Mignon AI Presentation in Arm Summit 2020 by Adrian Wheeldon and Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/N-wkgibJAZE
+* Mignon AI Presentation at Arm Summit 2020 by Adrian Wheeldon and Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/N-wkgibJAZE
 * Explainability and Dependability Analysis of Learning Automata based AI Hardware. IOLTS presentation by Rishad Shafik, Microsystems Research Group, Newcastle University. https://youtu.be/IjzZY0fDYiA
 * Tsetlin Machine - A new paradigm for pervasive AI. DATE SCONA Workshop presentation by Adrian Wheeldon, Microsystems Research Group, Newcastle University. https://youtu.be/TaspuovmSR8
 * Quick Guide to the Tsetlin Machine using Sequential Logic in Logisim. Presentations by Jie Lei, Microsystems Research Group, Newcastle University.
