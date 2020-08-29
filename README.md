@@ -140,6 +140,10 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 * The Convolutional Tsetlin Machine, https://github.com/cair/convolutional-tsetlin-machine
 * The Regression Tsetlin Machine, https://github.com/cair/regression-tsetlin-machine
 
+## Tsetlin Machine Hardware
+
+* Mignon AI, http://mignon.ai
+
 ## Videos
 
 * Mignon AI Presentation in Arm Summit 2020 by Adrian Wheeldon and Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/N-wkgibJAZE
