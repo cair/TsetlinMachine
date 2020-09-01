@@ -140,7 +140,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 * The Convolutional Tsetlin Machine, https://github.com/cair/convolutional-tsetlin-machine
 * The Regression Tsetlin Machine, https://github.com/cair/regression-tsetlin-machine
 
-## Tsetlin Machine Hardware
+## Hardware
 
 * Mignon AI, http://mignon.ai
 
