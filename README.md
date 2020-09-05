@@ -173,7 +173,16 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 @InProceedings{saha2020causal,
   author = {Rupsa {Saha} and Ole-Christoffer {Granmo} and Morten {Goodwin}},
   title = "{Mining Interpretable Rules for Sentiment and Semantic Relation Analysis using Tsetlin Machines}",
-  booktitle="Lecture Notes in Computer Science: Proceedings of the Thirty-ninth International Conference on Innovative Techniques and Applications of Artificial Intelligence (SGAI-2020)", year="2020",
+  booktitle="Lecture Notes in Computer Science: Proceedings of the 40th International Conference on Innovative Techniques and Applications of Artificial Intelligence (SGAI-2020)", year="2020",
+  publisher="Springer International Publishing"
+}
+```
+
+```bash
+@InProceedings{abeyrathna2020deterministic,
+  title="{A Novel Multi-Step Finite-State Automaton for Arbitrarily Deterministic Tsetlin Machine Learning}",
+  author={K. Darshana Abeyrathna and Ole-Christoffer Granmo and Rishad Shafik and Alex Yakovlev and Adrian Wheeldon and Jie Lei and Morten Goodwin},
+  booktitle="Lecture Notes in Computer Science: Proceedings of the 40th International Conference on Innovative Techniques and Applications of Artificial Intelligence (SGAI-2020)", year="2020",
   publisher="Springer International Publishing"
 }
 ```
@@ -193,14 +202,6 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
   author={Christian D. Blakely and Ole-Christoffer Granmo},
   journal = {arXiv preprint arXiv:2007.13885}, year = {2020},
   url = {https://arxiv.org/abs/2007.13885}
-}
-```
-
-```bash
-@article{abeyrathna2020deterministic,
-  title="{A Novel Multi-Step Finite-State Automaton for Arbitrarily Deterministic Tsetlin Machine Learning}",
-  author={K. Darshana Abeyrathna and Ole-Christoffer Granmo and Rishad Shafik and Alex Yakovlev and Adrian Wheeldon and Jie Lei and Morten Goodwin},
-  journal = {arXiv preprint arXiv:2007.02114}, year = {2020}
 }
 ```
 
