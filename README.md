@@ -170,6 +170,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@InProceedings{saha2020causal,
+  author = {Rupsa {Saha} and Ole-Christoffer {Granmo} and Morten {Goodwin}},
+  title = "{Mining Interpretable Rules for Sentiment and Semantic Relation Analysis using Tsetlin Machines}",
+  booktitle="Lecture Notes in Computer Science: Proceedings of the Thirty-ninth International Conference on Innovative Techniques and Applications of Artificial Intelligence (SGAI-2020)", year="2020",
+  publisher="Springer International Publishing"
+}
+```
+
+```bash
 @article{zhang2020convergence,
   title="{On the Convergence of Tsetlin Machines for the IDENTITY- and NOT Operators}",
   author={Xuan Zhang and Lei Jiao and Ole-Christoffer Granmo and Morten Goodwin},
