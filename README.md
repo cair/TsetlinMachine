@@ -316,7 +316,8 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 @article{granmo2019convtsetlin,
   author = {{Granmo}, Ole-Christoffer and {Glimsdal}, Sondre and {Jiao}, Lei and {Goodwin}, Morten and {Omlin}, Christian W. and {Berge}, Geir Thore},
   title = "{The Convolutional Tsetlin Machine}",
-  journal = {arXiv preprint arXiv:1905.09688}, year = {2019}
+  journal = {arXiv preprint arXiv:1905.09688}, year = {2019},
+  url={https://arxiv.org/abs/1905.09688}
 }
 ```
 
