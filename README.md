@@ -237,7 +237,8 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 @article{abeyrathna2020integer,
   author = {Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
   title = "{Extending the Tsetlin Machine With Integer-Weighted Clauses for Increased Interpretability}",
-  journal = {arXiv preprint arXiv:2005.05131}, year = {2020}
+  journal = {arXiv preprint arXiv:2005.05131}, year = {2020},
+  url={https://arxiv.org/abs/1905.09688}
 }
 ```
 
