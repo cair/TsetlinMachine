@@ -170,6 +170,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@article{abeyrathna2020parallel,
+  title="{Massively Parallel and Asynchronous Tsetlin Machine Architecture Supporting Almost Constant-Time Scaling}",
+  author={K. Darshana Abeyrathna and Bimal Bhattarai and Morten Goodwin and Saeed Gorji and Ole-Christoffer Granmo and Lei Jiao and Rupsa Saha and Rohan K. Yadav},
+  journal = {arXiv preprint arXiv:2009.04861}, year = {2020},
+  url = {https://arxiv.org/abs/2009.04861}
+}
+```
+
+```bash
 @InProceedings{saha2020causal,
   author = {Rupsa {Saha} and Ole-Christoffer {Granmo} and Morten {Goodwin}},
   title = "{Mining Interpretable Rules for Sentiment and Semantic Relation Analysis using Tsetlin Machines}",
