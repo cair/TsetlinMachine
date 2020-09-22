@@ -170,6 +170,16 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@InProceedings{shafik2020explainability,
+  title="{From Arithmetic to Logic Based AI: A Comparative Analysis of Neural Networks and Tsetlin Machine}",
+  author={Jie {Lei} and Adrian {Wheeldon} and Rishad {Shafik} and Alex {Yakovlev} and Ole-Christoffer {Granmo}},
+  booktitle={27th IEEE International Conference on Electronics Circuits and Systems (ICECS2020)},
+  year={2020},
+  organization={IEEE}
+}
+```
+
+```bash
 @article{abeyrathna2020parallel,
   title="{Massively Parallel and Asynchronous Tsetlin Machine Architecture Supporting Almost Constant-Time Scaling}",
   author={K. Darshana Abeyrathna and Bimal Bhattarai and Morten Goodwin and Saeed Gorji and Ole-Christoffer Granmo and Lei Jiao and Rupsa Saha and Rohan K. Yadav},
