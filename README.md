@@ -170,7 +170,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
-@InProceedings{shafik2020explainability,
+@InProceedings{lei2020arithmetic,
   title="{From Arithmetic to Logic Based AI: A Comparative Analysis of Neural Networks and Tsetlin Machine}",
   author={Jie {Lei} and Adrian {Wheeldon} and Rishad {Shafik} and Alex {Yakovlev} and Ole-Christoffer {Granmo}},
   booktitle={27th IEEE International Conference on Electronics Circuits and Systems (ICECS2020)},
