@@ -152,6 +152,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 * Quick Guide to the Tsetlin Machine using Sequential Logic in Logisim. Presentations by Jie Lei, Microsystems Research Group, Newcastle University.
   * Tsetlin Automaton - https://youtu.be/XzWSPo7GF94
   * Clause Calculation - https://youtu.be/Yfrt-W40LiI
+  * Summation and Thresholding - https://youtu.be/ipKHuHMDafU
 * Tsetlin Machine on Iris Data Set Demo with Handheld MignonAI (http://www.mignon.ai). Presentation by Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/BzaPGByX-hg
 * The-Ruler-of-Tsetlin-Automaton. Presentation by Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/LltDhg4ZuWo
 * Interpretable clustering and dimension reduction with Tsetlin automata machine learning. Presentation by Christian D. Blakely, PwC Switzerland. https://youtu.be/5-09LOGLcV8
