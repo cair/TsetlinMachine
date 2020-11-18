@@ -171,6 +171,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@article{bhattarai2020novelty,
+  title="{Measuring the Novelty of Natural Language Text Using the Conjunctive Clauses of a Tsetlin Machine Text Classifier}",
+  author={Bimal Bhattarai and Lei Jiao and Ole-Christoffer Granmo},
+  journal = {arXiv preprint arXiv:2011.08755}, year = {2020},
+  url = {https://arxiv.org/abs/2011.08755}
+}
+```
+
+```bash
 @InProceedings{lei2020arithmetic,
   title="{From Arithmetic to Logic Based AI: A Comparative Analysis of Neural Networks and Tsetlin Machine}",
   author={Jie {Lei} and Adrian {Wheeldon} and Rishad {Shafik} and Alex {Yakovlev} and Ole-Christoffer {Granmo}},
