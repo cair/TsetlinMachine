@@ -171,6 +171,16 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@InProceedings{yadav2021sentiment,
+  title="{Human-Level Interpretable Learning for Aspect-Based Sentiment Analysis}",
+  author={Rohan Kumar {Yadav} and Lei {Jiao} and Ole-Christoffer {Granmo} and Morten {Goodwin}},
+  booktitle={The Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI-21)},
+  year={2021},
+  organization={AAAI}
+}
+```
+
+```bash
 @article{bhattarai2020novelty,
   title="{Measuring the Novelty of Natural Language Text Using the Conjunctive Clauses of a Tsetlin Machine Text Classifier}",
   author={Bimal Bhattarai and Lei Jiao and Ole-Christoffer Granmo},
