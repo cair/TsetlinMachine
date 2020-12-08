@@ -181,6 +181,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@article{wheeldon2020edge,
+  title="{Low-Latency Asynchronous Logic Design for Inference at the Edge}",
+  author={Adrian Wheeldon and Alex Yakovlev and Rishad Shafik and Jordan Morris},
+  journal = {arXiv preprint arXiv:2012.03402}, year = {2020},
+  url = {https://arxiv.org/abs/2012.03402}
+}
+```
+
+```bash
 @article{bhattarai2020novelty,
   title="{Measuring the Novelty of Natural Language Text Using the Conjunctive Clauses of a Tsetlin Machine Text Classifier}",
   author={Bimal Bhattarai and Lei Jiao and Ole-Christoffer Granmo},
