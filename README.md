@@ -181,6 +181,14 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@article{abeyrathna2021integer,
+  author = {Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
+  title = "{Extending the Tsetlin Machine With Integer-Weighted Clauses for Increased Interpretability}",
+  journal = {IEEE Access}, year = {2021}
+}
+```
+
+```bash
 @article{wheeldon2020edge,
   title="{Low-Latency Asynchronous Logic Design for Inference at the Edge}",
   author={Adrian Wheeldon and Alex Yakovlev and Rishad Shafik and Jordan Morris},
@@ -308,15 +316,6 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
   title = "{Network Attacks Detection based on Tsetlin Machine}",
   pages = {17-23},
   journal = {Information Security Problems. Computer Systems.}, year = {2020}
-}
-```
-
-```bash
-@article{abeyrathna2020integer,
-  author = {Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
-  title = "{Extending the Tsetlin Machine With Integer-Weighted Clauses for Increased Interpretability}",
-  journal = {arXiv preprint arXiv:2005.05131}, year = {2020},
-  url={https://arxiv.org/abs/1905.09688}
 }
 ```
 
