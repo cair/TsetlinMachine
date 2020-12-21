@@ -181,6 +181,16 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@InProceedings{yadav2021wordsense,
+  title="{Interpretable Classification of Word Sense Disambiguation Using Tsetlin Machine}",
+  author={Rohan Kumar {Yadav} and Lei {Jiao} and Ole-Christoffer {Granmo} and Morten {Goodwin}},
+  booktitle={13th International Conference on Agents and Artificial Intelligence (ICAART 2021)},
+  year={2021},
+  organization={INSTICC}
+}
+```
+
+```bash
 @article{abeyrathna2021integer,
   author = {Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
   title = "{Extending the Tsetlin Machine With Integer-Weighted Clauses for Increased Interpretability}",
