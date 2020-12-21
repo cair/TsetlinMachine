@@ -191,6 +191,16 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@InProceedings{bhattarai2020novelty,
+  title="{Measuring the Novelty of Natural Language Text Using the Conjunctive Clauses of a Tsetlin Machine Text Classifier}",
+  author={Bimal Bhattarai and Lei Jiao and Ole-Christoffer Granmo},
+  booktitle={13th International Conference on Agents and Artificial Intelligence (ICAART 2021)},
+  year={2021},
+  organization={INSTICC}
+}
+```
+
+```bash
 @article{abeyrathna2021integer,
   author = {Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
   title = "{Extending the Tsetlin Machine With Integer-Weighted Clauses for Increased Interpretability}",
@@ -204,15 +214,6 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
   author={Adrian Wheeldon and Alex Yakovlev and Rishad Shafik and Jordan Morris},
   journal = {arXiv preprint arXiv:2012.03402}, year = {2020},
   url = {https://arxiv.org/abs/2012.03402}
-}
-```
-
-```bash
-@article{bhattarai2020novelty,
-  title="{Measuring the Novelty of Natural Language Text Using the Conjunctive Clauses of a Tsetlin Machine Text Classifier}",
-  author={Bimal Bhattarai and Lei Jiao and Ole-Christoffer Granmo},
-  journal = {arXiv preprint arXiv:2011.08755}, year = {2020},
-  url = {https://arxiv.org/abs/2011.08755}
 }
 ```
 
