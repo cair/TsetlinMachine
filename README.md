@@ -453,7 +453,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 
 ## Licence
 
-Copyright (c) 2020 Ole-Christoffer Granmo
+Copyright (c) 2021 Ole-Christoffer Granmo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
