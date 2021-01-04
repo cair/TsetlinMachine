@@ -201,6 +201,16 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@InProceedings{abeyrathna2021convreg,
+  title="{Convolutional Regression Tsetlin Machine}",
+  author={Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
+  booktitle={6th International Conference on Machine Learning Technologies (ICMLT 2021)},
+  year={2021},
+  organization={ACM}
+}
+```
+
+```bash
 @article{abeyrathna2021integer,
   author = {Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
   title = "{Extending the Tsetlin Machine With Integer-Weighted Clauses for Increased Interpretability}",
@@ -342,7 +352,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 
 ```bash
 @InProceedings{abeyrathna2020integerregression,
-  title="{A Regression Tsetlin Machine with Integer Weighted Clauses for Compact Pattern Representation,}",
+  title="{A Regression Tsetlin Machine with Integer Weighted Clauses for Compact Pattern Representation}",
   author={Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
   booktitle={International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems},
   year={2020},
