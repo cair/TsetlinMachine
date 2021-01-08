@@ -219,6 +219,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@article{jiao2021xor,
+  title="{On the Convergence of Tsetlin Machines for the XOR Operator}",
+  author={Lei Jiao and Xuan Zhang and Ole-Christoffer Granmo and K. Darshana Abeyrathna},
+  journal = {arXiv preprint arXiv:2101.02547}, year = {2021},
+  url = {https://arxiv.org/abs/2101.02547}
+}
+```
+
+```bash
 @article{wheeldon2020edge,
   title="{Low-Latency Asynchronous Logic Design for Inference at the Edge}",
   author={Adrian Wheeldon and Alex Yakovlev and Rishad Shafik and Jordan Morris},
