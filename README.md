@@ -268,7 +268,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 
 ```bash
 @InProceedings{abeyrathna2020adaptive,
-  title="{An Adaptive Continuous Feature Arrangement for the Tsetlin Machine to Forecast Dengue Incidences in Philippines}",
+  title="{Adaptive Continuous Feature Binarization for Tsetlin Machines Applied to Forecasting Dengue Incidences in the Philippines}",
   author={K. Darshana Abeyrathna and Ole-Christoffer Granmo and Xuan Zhang and Morten Goodwin},
   booktitle={2020 IEEE Symposium Series on Computational Intelligence (SSCI)},
   year={2020},
