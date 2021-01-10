@@ -191,7 +191,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
-@InProceedings{bhattarai2020novelty,
+@InProceedings{bhattarai2021novelty,
   title="{Measuring the Novelty of Natural Language Text Using the Conjunctive Clauses of a Tsetlin Machine Text Classifier}",
   author={Bimal Bhattarai and Lei Jiao and Ole-Christoffer Granmo},
   booktitle={13th International Conference on Agents and Artificial Intelligence (ICAART 2021)},
