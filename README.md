@@ -53,8 +53,12 @@ A clause <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign
 A Tsetlin Machine learns on-line, processing one training example <img src="http://latex.codecogs.com/svg.latex?(X, y)" border="0" valign="middle"/> at a time.
 </p>
 
+<p align="center">
+  <img width="50%" src="https://github.com/olegranmo/blob/blob/master/Type_I_Feedback.png">
+</p>
+
 <p align="left">
-<b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>. An afflicted clause, in turn, reinforces each of its Tsetlin Automata based on: (i) the clause output <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/>; (ii) the action of the targeted Tsetlin Automaton - <i>Include</i> or <i>Exclude</i>; and (iii) the value of the literal <img src="http://latex.codecogs.com/svg.latex?l_k" border="0" valign="middle"/> assigned to the automaton. Two rules govern Type I feedback:
+<b>Type I feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/>. An afflicted clause, in turn, reinforces each of its Tsetlin Automata based on: (i) the clause output <img src="http://latex.codecogs.com/svg.latex?C_j(X)" border="0" valign="middle"/>; (ii) the action of the targeted Tsetlin Automaton - <i>Include</i> or <i>Exclude</i>; and (iii) the value of the literal <img src="http://latex.codecogs.com/svg.latex?l_k" border="0" valign="middle"/> assigned to the automaton. As shown in Table 1, Two rules govern Type I feedback:
 </p>
 
 * <i>Include</i> is rewarded and <i>Exclude</i> is penalized with probability <img src="http://latex.codecogs.com/svg.latex?\frac{s-1}{s}" border="0" valign="middle"/> <b>if</b> <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/> <b>and</b> <img src="http://latex.codecogs.com/svg.latex?{l_k=1}" border="0" valign="middle"/>. This reinforcement is strong (triggers with high probability) and makes the clause remember and refine the pattern it recognizes in <img src="http://latex.codecogs.com/svg.latex?X" border="0" valign="middle"/>. 
@@ -64,8 +68,12 @@ A Tsetlin Machine learns on-line, processing one training example <img src="http
 Above, <img src="http://latex.codecogs.com/svg.latex?s" border="0" valign="middle"/> is a hyperparameter that controls the frequency of the patterns produced.
 </p>
 
+<p align="center">
+  <img width="50%" src="https://github.com/olegranmo/blob/blob/master/Type_II_Feedback.png">
+</p>
+
 <p>
-<b>Type II feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>. It penalizes <i>Exclude</i> with probability 1 <b>if</b> <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/> <b>and</b> <img src="http://latex.codecogs.com/svg.latex?{l_k=0}" border="0" valign="middle"/>. This feedback is strong and produces candidate literals for discriminating between <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and <img src="http://latex.codecogs.com/svg.latex?{y=1}" border="0" valign="middle"/>.
+<b>Type II feedback</b> is given stochastically to clauses with positive polarity when <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and to clauses with negative polarity when <img src="http://latex.codecogs.com/svg.latex?y=1" border="0" valign="middle"/>. As captured by Table 2, it penalizes <i>Exclude</i> with probability 1 <b>if</b> <img src="http://latex.codecogs.com/svg.latex?C_j(X)=1" border="0" valign="middle"/> <b>and</b> <img src="http://latex.codecogs.com/svg.latex?{l_k=0}" border="0" valign="middle"/>. This feedback is strong and produces candidate literals for discriminating between <img src="http://latex.codecogs.com/svg.latex?y=0" border="0" valign="middle"/> and <img src="http://latex.codecogs.com/svg.latex?{y=1}" border="0" valign="middle"/>.
 </p>
 
 <p>
