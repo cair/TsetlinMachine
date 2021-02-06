@@ -54,7 +54,7 @@ A Tsetlin Machine learns on-line, processing one training example <img src="http
 </p>
 
 <p align="center">
-  <img width="55%" src="https://github.com/olegranmo/blob/blob/master/Type_I_Feedback.png">
+  <img width="52%" src="https://github.com/olegranmo/blob/blob/master/Type_I_Feedback.png">
 </p>
 
 <p align="left">
@@ -69,7 +69,7 @@ Above, <img src="http://latex.codecogs.com/svg.latex?s" border="0" valign="middl
 </p>
 
 <p align="center">
-  <img width="55%" src="https://github.com/olegranmo/blob/blob/master/Type_II_Feedback.png">
+  <img width="52%" src="https://github.com/olegranmo/blob/blob/master/Type_II_Feedback.png">
 </p>
 
 <p>
