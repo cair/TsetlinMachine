@@ -27,7 +27,7 @@ For example, the clause <img src="http://latex.codecogs.com/svg.latex?C_j(X) = x
 </p>
 
 <p align="left">
-The number of clauses employed is a user set parameter <img src="http://latex.codecogs.com/svg.latex?n" border="0"/>. Half of the clauses are assigned positive polarity. The other half is assigned negative polarity. The clause outputs, in turn, are combined into a classification decision through summation and thresholding using the unit step function <img src="http://latex.codecogs.com/svg.latex?{u(v) = 1 ~\mathbf{if}~ v \ge 0 ~\mathbf{else}~ 0}" border="0" valign="middle"/>:
+The number of clauses employed is a user-configurable parameter <img src="http://latex.codecogs.com/svg.latex?n" border="0"/>. Half of the clauses are assigned positive polarity. The other half is assigned negative polarity. The clause outputs, in turn, are combined into a classification decision through summation and thresholding using the unit step function <img src="http://latex.codecogs.com/svg.latex?{u(v) = 1 ~\mathbf{if}~ v \ge 0 ~\mathbf{else}~ 0}" border="0" valign="middle"/>:
 </p>
 
 <p align="center">
