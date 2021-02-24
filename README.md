@@ -190,6 +190,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@article{saha2021relational,
+  title="{A Relational Tsetlin Machine with Applications to Natural Language Understanding}",
+  author={Rupsa Saha and Ole-Christoffer Granmo and Vladimir I. Zadorozhny and Morten Goodwin},
+  journal = {arXiv preprint arXiv:2102.10952}, year = {2021},
+  url = {https://arxiv.org/abs/2102.10952}
+}
+```
+
+```bash
 @article{lei2021kws,
   title="{Low-Power Audio Keyword Spotting using Tsetlin Machines}",
   author={Jie Lei and Tousif Rahman and Rishad Shafik and Adrian Wheeldon and Alex Yakovlev and Ole-Christoffer Granmo and Fahim Kawsar and Akhil Mathur},
