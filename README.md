@@ -382,7 +382,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 @InProceedings{gorji2020indexing,
   title="{Increasing the Inference and Learning Speed of Tsetlin Machines with Clause Indexing}",
   author={Saeed {Gorji} and Ole Christoffer {Granmo} and Sondre {Glimsdal} and Jonathan {Edwards} and Morten {Goodwin}},
-  booktitle={International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems},
+  booktitle={33rd International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE 2020)},
   year={2020},
   organization={Springer}
 }
@@ -392,7 +392,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 @InProceedings{abeyrathna2020integerregression,
   title="{A Regression Tsetlin Machine with Integer Weighted Clauses for Compact Pattern Representation}",
   author={Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
-  booktitle={International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems},
+  booktitle={33rd International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE 2020)},
   year={2020},
   organization={Springer}
 }
