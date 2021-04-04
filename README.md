@@ -214,7 +214,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
   title="{Question Classification using Interpretable Tsetlin Machine}",
   author={Dragos Constantin {Nicolae}},
   booktitle={The 1st International Workshop on Machine Reasoning (MRC 2021)},
-  year={2021},
+  year={2021}
 }
 ```
 
