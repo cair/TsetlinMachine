@@ -210,6 +210,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@InProceedings{nicolae2021question,
+  title="{Question Classification using Interpretable Tsetlin Machine}",
+  author={Dragos Constantin {Nicolae}},
+  booktitle={The 1st International Workshop on Machine Reasoning (MRC 2021)},
+  year={2021},
+}
+```
+
+```bash
 @article{saha2021relational,
   title="{A Relational Tsetlin Machine with Applications to Natural Language Understanding}",
   author={Rupsa Saha and Ole-Christoffer Granmo and Vladimir I. Zadorozhny and Morten Goodwin},
