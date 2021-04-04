@@ -180,6 +180,16 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@InProceedings{gorji2021rl,
+  title="{Explainable Reinforcement Learning with the Tsetlin Machine}",
+  author={Saeed {Gorji} and Ole Christoffer {Granmo} and Marco {Wiering}},
+  booktitle={34rd International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE 2021)},
+  year={2021},
+  organization={Springer}
+}
+```
+
+```bash
 @InProceedings{yadav2021sentiment,
   title="{Human-Level Interpretable Learning for Aspect-Based Sentiment Analysis}",
   author={Rohan Kumar {Yadav} and Lei {Jiao} and Ole-Christoffer {Granmo} and Morten {Goodwin}},
