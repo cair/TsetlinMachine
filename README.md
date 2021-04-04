@@ -183,7 +183,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 @InProceedings{blakely2021closed,
   title="{Closed-Form Expressions for Global and Local Interpretation of Tsetlin Machines}",
   author={Christian D. {Blakely} and Ole-Christoffer {Granmo}},
-  booktitle={34rd International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE 2021)},
+  booktitle={34th International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE 2021)},
   year={2021},
   organization={Springer}
 }
@@ -193,7 +193,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 @InProceedings{gorji2021rl,
   title="{Explainable Reinforcement Learning with the Tsetlin Machine}",
   author={Saeed {Gorji} and Ole Christoffer {Granmo} and Marco {Wiering}},
-  booktitle={34rd International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE 2021)},
+  booktitle={34th International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE 2021)},
   year={2021},
   organization={Springer}
 }
