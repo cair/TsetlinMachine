@@ -180,6 +180,16 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@InProceedings{blakely2021closed,
+  title="{Closed-Form Expressions for Global and Local Interpretation of Tsetlin Machines}",
+  author={Christian D. {Blakely} and Ole-Christoffer {Granmo}},
+  booktitle={34rd International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems (IEA/AIE 2021)},
+  year={2021},
+  organization={Springer}
+}
+```
+
+```bash
 @InProceedings{gorji2021rl,
   title="{Explainable Reinforcement Learning with the Tsetlin Machine}",
   author={Saeed {Gorji} and Ole Christoffer {Granmo} and Marco {Wiering}},
@@ -348,15 +358,6 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
   author={Xuan Zhang and Lei Jiao and Ole-Christoffer Granmo and Morten Goodwin},
   journal = {arXiv preprint arXiv:2007.14268}, year = {2020},
   url = {https://arxiv.org/abs/2007.14268}
-}
-```
-
-```bash
-@article{blakely2020closedform,
-  title="{Closed-Form Expressions for Global and Local Interpretation of Tsetlin Machines with Applications to Explaining High-Dimensional Data}",
-  author={Christian D. Blakely and Ole-Christoffer Granmo},
-  journal = {arXiv preprint arXiv:2007.13885}, year = {2020},
-  url = {https://arxiv.org/abs/2007.13885}
 }
 ```
 
