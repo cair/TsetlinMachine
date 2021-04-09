@@ -184,8 +184,8 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
   title="{Low-Power Audio Keyword Spotting Using Tsetlin Machines}",
   author={Jie Lei and Tousif Rahman and Rishad Shafik and Adrian Wheeldon and Alex Yakovlev and Ole-Christoffer Granmo and Fahim Kawsar and Akhil Mathur},
   journal = {Journal of Low Power Electronics and Applications}, year = {2021},
-  issue=11,
-  volume=18
+  volume=11,
+  issue=18,
   url = {https://www.mdpi.com/2079-9268/11/2/18},
   organization={MDPI}
 }
