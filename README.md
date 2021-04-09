@@ -180,6 +180,18 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@article{lei2021kws,
+  title="{Low-Power Audio Keyword Spotting Using Tsetlin Machines}",
+  author={Jie Lei and Tousif Rahman and Rishad Shafik and Adrian Wheeldon and Alex Yakovlev and Ole-Christoffer Granmo and Fahim Kawsar and Akhil Mathur},
+  journal = {Journal of Low Power Electronics and Applications}, year = {2021},
+  issue=11,
+  volume=18
+  url = {https://www.mdpi.com/2079-9268/11/2/18},
+  organization={MDPI}
+}
+```
+
+```bash
 @InProceedings{blakely2021closed,
   title="{Closed-Form Expressions for Global and Local Interpretation of Tsetlin Machines}",
   author={Christian D. {Blakely} and Ole-Christoffer {Granmo}},
@@ -224,15 +236,6 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
   author={Rupsa Saha and Ole-Christoffer Granmo and Vladimir I. Zadorozhny and Morten Goodwin},
   journal = {arXiv preprint arXiv:2102.10952}, year = {2021},
   url = {https://arxiv.org/abs/2102.10952}
-}
-```
-
-```bash
-@article{lei2021kws,
-  title="{Low-Power Audio Keyword Spotting using Tsetlin Machines}",
-  author={Jie Lei and Tousif Rahman and Rishad Shafik and Adrian Wheeldon and Alex Yakovlev and Ole-Christoffer Granmo and Fahim Kawsar and Akhil Mathur},
-  journal = {arXiv preprint arXiv:2101.11336}, year = {2021},
-  url = {https://arxiv.org/abs/2101.11336}
 }
 ```
 
