@@ -179,6 +179,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 
 ## Tsetlin Machine Papers
 
+```bash
+@InProceedings{abeyrathna2020parallel,
+  title="{Massively Parallel and Asynchronous Tsetlin Machine Architecture Supporting Almost Constant-Time Scaling}",
+  author={K. Darshana Abeyrathna and Bimal Bhattarai and Morten Goodwin and Saeed Gorji and Ole-Christoffer Granmo and Lei Jiao and Rupsa Saha and Rohan K. Yadav},
+  booktitle={The Thirty-eighth International Conference on Machine Learning (ICML 2021)},
+  year={2021},
+  organization={ICML}
+}
+```
 
 ```bash
 @article{yadav2021dwr,
@@ -344,15 +353,6 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
   booktitle={2020 IEEE Symposium Series on Computational Intelligence (SSCI)},
   year={2020},
   organization={IEEE}
-}
-```
-
-```bash
-@article{abeyrathna2020parallel,
-  title="{Massively Parallel and Asynchronous Tsetlin Machine Architecture Supporting Almost Constant-Time Scaling}",
-  author={K. Darshana Abeyrathna and Bimal Bhattarai and Morten Goodwin and Saeed Gorji and Ole-Christoffer Granmo and Lei Jiao and Rupsa Saha and Rohan K. Yadav},
-  journal = {arXiv preprint arXiv:2009.04861}, year = {2020},
-  url = {https://arxiv.org/abs/2009.04861}
 }
 ```
 
