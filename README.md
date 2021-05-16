@@ -180,7 +180,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
-@InProceedings{abeyrathna2020parallel,
+@InProceedings{abeyrathna2021parallel,
   title="{Massively Parallel and Asynchronous Tsetlin Machine Architecture Supporting Almost Constant-Time Scaling}",
   author={K. Darshana Abeyrathna and Bimal Bhattarai and Morten Goodwin and Saeed Gorji and Ole-Christoffer Granmo and Lei Jiao and Rupsa Saha and Rohan K. Yadav},
   booktitle={The Thirty-eighth International Conference on Machine Learning (ICML 2021)},
