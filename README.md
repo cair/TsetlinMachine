@@ -154,6 +154,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 
 ## Videos
 
+* Watching the state transitions of Tsetlin Automata. Demo by Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/wXyiLtlpwHI
 * Keyword Spotting using Tsetlin Machines. Demo by Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/JW0tztpjX8k
 * Mignon AI Presentation at Arm Summit 2020 by Adrian Wheeldon and Jie Lei, Microsystems Research Group, Newcastle University. https://youtu.be/N-wkgibJAZE
 * Explainability and Dependability Analysis of Learning Automata based AI Hardware. IOLTS presentation by Rishad Shafik, Microsystems Research Group, Newcastle University. https://youtu.be/IjzZY0fDYiA
