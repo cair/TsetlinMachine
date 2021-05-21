@@ -11,7 +11,7 @@ Code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine from h
 - [Basics](#basics)
   - [Classification](#classification)
   - [Learning](#learning)
-- [Learning Behaviour](#learning-behaviour)
+  - [Learning Behaviour](#learning-behaviour)
 - [Noisy XOR Demo](#noisy-xor-demo)
 - [Requirements](#requirements)
 - [Other Implementations](#other-implementations)
@@ -113,7 +113,7 @@ If a clause is not reinforced, it does not give feedback to its Tsetlin Automata
 See https://arxiv.org/abs/1804.01508 for details. 
 </p>
 
-## Learning Behaviour
+### Learning Behaviour
 The below figure depicts average learning progress (over 50 runs) of the Tsetlin Machine on a binarized, but otherwise unenhanced version of the MNIST dataset (https://en.wikipedia.org/wiki/MNIST_database). See also https://github.com/cair/fast-tsetlin-machine-with-mnist-demo.
 
 <p align="center">
