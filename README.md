@@ -208,6 +208,33 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@article{bhattarai2021fakenews,
+  title="{Explainable Tsetlin Machine framework for fake news detection with credibility score assessment}",
+  author={Bimal Bhattarai and Ole-Christoffer Granmo and Lei Jiao},
+  journal = {arXiv preprint arXiv:2105.09114}, year = {2021},
+  url = {https://arxiv.org/abs/2105.09114}
+}
+```
+
+```bash
+@article{bhattarai2021wordlevel,
+  title="{Word-level Human Interpretable Scoring Mechanism for Novel Text Detection Using Tsetlin Machines}",
+  author={Bimal Bhattarai and Ole-Christoffer Granmo and Lei Jiao},
+  journal = {arXiv preprint arXiv:2105.04708}, year = {2021},
+  url = {https://arxiv.org/abs/2105.04708}
+}
+```
+
+```bash
+@article{yadav2021dwr,
+  title="{Distributed Word Representation in Tsetlin Machine}",
+  author={Rohan Kumar Yadav and Lei Jiao and Ole-Christoffer Granmo and Morten Goodwin},
+  journal = {arXiv preprint arXiv:2104.06901}, year = {2021},
+  url = {https://arxiv.org/abs/2104.06901}
+}
+```
+
+```bash
 @article{yadav2021dwr,
   title="{Distributed Word Representation in Tsetlin Machine}",
   author={Rohan Kumar Yadav and Lei Jiao and Ole-Christoffer Granmo and Morten Goodwin},
