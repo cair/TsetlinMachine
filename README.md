@@ -235,15 +235,6 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
-@article{yadav2021dwr,
-  title="{Distributed Word Representation in Tsetlin Machine}",
-  author={Rohan Kumar Yadav and Lei Jiao and Ole-Christoffer Granmo and Morten Goodwin},
-  journal = {arXiv preprint arXiv:2104.06901}, year = {2021},
-  url = {https://arxiv.org/abs/2104.06901}
-}
-```
-
-```bash
 @article{lei2021kws,
   title="{Low-Power Audio Keyword Spotting Using Tsetlin Machines}",
   author={Jie Lei and Tousif Rahman and Rishad Shafik and Adrian Wheeldon and Alex Yakovlev and Ole-Christoffer Granmo and Fahim Kawsar and Akhil Mathur},
