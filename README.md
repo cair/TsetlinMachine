@@ -6,6 +6,23 @@ Code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine from h
   <img width="75%" src="https://github.com/olegranmo/blob/blob/master/Tsetlin_Machine_Example_Configuration_Full.png">
 </p>
 
+## Contents
+
+- [Basics](#basics)
+  - [Classification](#classification)
+  - [Learning](#learning)
+- [Learning Behaviour](#learning-behaviour)
+- [Noisy XOR Demo](#noisy-xor-demo)
+- [Requirements](#requirements)
+- [Other Implementations](#other-implementations)
+- [Other Architectures](#other-architectures)
+- [Hardware](#hardware)
+- [Videos](#videos)
+- [Tutorials](#tutorials)
+- [Acknowledgements](#acknowledgements)
+- [Tsetlin Machine Papers](#tsetlin-machine-papers)
+- [Licence](#licence)
+
 ## Basics
 
 ### Classification
