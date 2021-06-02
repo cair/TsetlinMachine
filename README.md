@@ -209,6 +209,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@article{sharma2021dropclause,
+  title="{Human Interpretable AI: Enhancing Tsetlin Machine Stochasticity with Drop Clause}",
+  author={Jivitesh Sharma and Rohan Yadav and Ole-Christoffer Granmo and Lei Jiao},
+  journal = {arXiv preprint arXiv:2105.14506}, year = {2021},
+  url = {https://arxiv.org/abs/2105.14506}
+}
+```
+
+```bash
 @article{bhattarai2021fakenews,
   title="{Explainable Tsetlin Machine framework for fake news detection with credibility score assessment}",
   author={Bimal Bhattarai and Ole-Christoffer Granmo and Lei Jiao},
