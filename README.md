@@ -199,6 +199,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@article{zhang2021convergence,
+  title = {On the {{Convergence}} of {{Tsetlin Machines}} for the {{IDENTITY}}- and {{NOT Operators}}},
+  author = {Zhang, Xuan and Jiao, Lei and Granmo, Ole-Christoffer and Goodwin, Morten},
+  year = {2021},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence}
+}
+```
+
+```bash
 @InProceedings{abeyrathna2021parallel,
   title="{Massively Parallel and Asynchronous Tsetlin Machine Architecture Supporting Almost Constant-Time Scaling}",
   author={K. Darshana Abeyrathna and Bimal Bhattarai and Morten Goodwin and Saeed Gorji and Ole-Christoffer Granmo and Lei Jiao and Rupsa Saha and Rohan K. Yadav},
@@ -417,15 +426,6 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
   author={K. Darshana Abeyrathna and Ole-Christoffer Granmo and Rishad Shafik and Alex Yakovlev and Adrian Wheeldon and Jie Lei and Morten Goodwin},
   booktitle="Lecture Notes in Computer Science: Proceedings of the 40th International Conference on Innovative Techniques and Applications of Artificial Intelligence (SGAI-2020)", year="2020",
   publisher="Springer International Publishing"
-}
-```
-
-```bash
-@article{zhang2020convergence,
-  title="{On the Convergence of Tsetlin Machines for the IDENTITY- and NOT Operators}",
-  author={Xuan Zhang and Lei Jiao and Ole-Christoffer Granmo and Morten Goodwin},
-  journal = {arXiv preprint arXiv:2007.14268}, year = {2020},
-  url = {https://arxiv.org/abs/2007.14268}
 }
 ```
 
