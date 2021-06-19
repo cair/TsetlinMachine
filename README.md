@@ -41,7 +41,7 @@ A Tsetlin Machine pattern is formulated as a conjunctive clause <img src="http:/
 </p>
 
 <p align="left">
-For example, the clause <img src="http://latex.codecogs.com/svg.latex?C_j(X)%20%3D%20x_1%20%7B%5Cland%7D%20x_2%20%3D%20x_1%20x_2" border="0" valign="middle"/> consists of the literals <img src="http://latex.codecogs.com/svg.latex?L_j = \{x_1, x_2\}" border="0" valign="middle"/> and outputs <img src="http://latex.codecogs.com/svg.latex?1" border="0" valign="middle"/> iff <img src="http://latex.codecogs.com/svg.latex?x_1 = x_2 = 1" border="0" valign="middle"/>.
+For example, the clause <img src="http://latex.codecogs.com/svg.latex?C_j(X)=x_1\land{\lnot}x_2" border="0" valign="middle"/> consists of the literals <img src="http://latex.codecogs.com/svg.latex?L_j = \{x_1,{\lnot}x_2\}" border="0" valign="middle"/> and outputs <img src="http://latex.codecogs.com/svg.latex?1" border="0" valign="middle"/> iff <img src="http://latex.codecogs.com/svg.latex?x_1 = 1" border="0" valign="middle"/> and <img src="http://latex.codecogs.com/svg.latex?x_2 = 0" border="0" valign="middle"/>.
 </p>
 
 <p align="left">
