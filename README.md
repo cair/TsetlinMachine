@@ -363,11 +363,12 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
-@article{wheeldon2020edge,
+@InProceedings{wheeldon2021low,
   title="{Low-Latency Asynchronous Logic Design for Inference at the Edge}",
   author={Adrian Wheeldon and Alex Yakovlev and Rishad Shafik and Jordan Morris},
-  journal = {arXiv preprint arXiv:2012.03402}, year = {2020},
-  url = {https://arxiv.org/abs/2012.03402}
+  booktitle={2021 Design, Automation and Test in Europe Conference (DATE21)},
+  year={2021},
+  pages="370-373"
 }
 ```
 
