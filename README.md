@@ -18,7 +18,7 @@ Code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine from h
 - [Other Implementations](#other-implementations)
 - [Other Architectures](#other-architectures)
 - [Hardware](#hardware)
-- [Book](#book)
+- [Books](#books)
 - [Videos](#videos)
 - [Tutorials](#tutorials)
 - [Acknowledgements](#acknowledgements)
@@ -171,7 +171,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 
 * Mignon AI, http://mignon.ai
 
-## Book
+## Books
 
 <i>An Introduction to Tsetlin Machines</i> coming soon at https://tsetlinmachine.org.
 
