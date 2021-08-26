@@ -18,7 +18,7 @@ Code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine from h
 - [Other Implementations](#other-implementations)
 - [Other Architectures](#other-architectures)
 - [Hardware](#hardware)
-- [Book] (#book)
+- [Book](#book)
 - [Videos](#videos)
 - [Tutorials](#tutorials)
 - [Acknowledgements](#acknowledgements)
