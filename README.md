@@ -205,6 +205,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 
 ## Tsetlin Machine Papers
 
+
 ```bash
 @InProceedings{wheeldon2021self,
   title="{Self-Timed Reinforcement Learning using Tsetlin Machine}",
@@ -215,6 +216,13 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
   url={https://arxiv.org/abs/2109.00846}
 }
 ```
+
+@article{glimsdal2021coalesced,
+  title={Coalesced Multi-Output Tsetlin Machines with Clause Sharing},
+  author={Sondre Glimsdal and Ole-Christoffer Granmo},
+  journal = {arXiv preprint arXiv:2108.07594}, year = {2021},
+  url = {https://arxiv.org/abs/2108.07594}
+}
 
 ```bash
 @article{Abeyrathna2021adaptivesparse,
