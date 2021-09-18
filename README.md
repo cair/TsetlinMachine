@@ -217,12 +217,14 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 }
 ```
 
+```bash
 @article{glimsdal2021coalesced,
   title={Coalesced Multi-Output Tsetlin Machines with Clause Sharing},
   author={Sondre Glimsdal and Ole-Christoffer Granmo},
   journal = {arXiv preprint arXiv:2108.07594}, year = {2021},
   url = {https://arxiv.org/abs/2108.07594}
 }
+```
 
 ```bash
 @article{Abeyrathna2021adaptivesparse,
