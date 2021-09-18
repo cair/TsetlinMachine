@@ -217,6 +217,22 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@article{Abeyrathna2021adaptivesparse,
+  title="{Adaptive Sparse Representation of Continuous Input for Tsetlin Machines Based on Stochastic Searching on the Line}",
+  volume={10},
+  ISSN={2079-9292},
+  url={http://dx.doi.org/10.3390/electronics10172107},
+  DOI={10.3390/electronics10172107},
+  number={17},
+  journal={Electronics},
+  publisher={MDPI AG},
+  author={Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Goodwin, Morten},
+  year={2021},
+  month={Aug},
+  pages={2107}}
+```
+
+```bash
 @article{zhang2021convergence,
   title = {On the {{Convergence}} of {{Tsetlin Machines}} for the {{IDENTITY}}- and {{NOT Operators}}},
   author = {Zhang, Xuan and Jiao, Lei and Granmo, Ole-Christoffer and Goodwin, Morten},
