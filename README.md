@@ -206,6 +206,17 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@InProceedings{wheeldon2021self,
+  title="{Self-Timed Reinforcement Learning using Tsetlin Machine}",
+  author={Adrian Wheeldon and Alex Yakovlev and Rishad Shafik},
+  booktitle={27th IEEE International Symposium on Asynchronous Circuits and Systems (ASYNC 2021)},
+  year={2021},
+  organization={IEEE},
+  url={https://arxiv.org/abs/2109.00846}
+}
+```
+
+```bash
 @article{zhang2021convergence,
   title = {On the {{Convergence}} of {{Tsetlin Machines}} for the {{IDENTITY}}- and {{NOT Operators}}},
   author = {Zhang, Xuan and Jiao, Lei and Granmo, Ole-Christoffer and Goodwin, Morten},
