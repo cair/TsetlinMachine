@@ -175,7 +175,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 
 ## Books
 
-An Introduction to Tsetlin Machines, https://tsetlinmachine.org
+* An Introduction to Tsetlin Machines, https://tsetlinmachine.org
 
 ## Videos
 
