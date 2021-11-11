@@ -205,6 +205,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 
 ## Tsetlin Machine Papers
 
+```bash
+@InProceedings{yadav2021dwr,
+  title={Enhancing Interpretable Clauses Semantically using Pretrained Word Representation},
+  author={Rohan Kumar Yadav and Lei Jiao and Ole-Christoffer Granmo and Morten Goodwin},
+  booktitle={BLACKBOXNLP},
+  url = {https://aclanthology.org/2021.blackboxnlp-1.19.pdf},
+  year={2021}
+}
+```
 
 ```bash
 @InProceedings{wheeldon2021self,
@@ -285,15 +294,6 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
   author={Bimal Bhattarai and Ole-Christoffer Granmo and Lei Jiao},
   journal = {arXiv preprint arXiv:2105.04708}, year = {2021},
   url = {https://arxiv.org/abs/2105.04708}
-}
-```
-
-```bash
-@article{yadav2021dwr,
-  title="{Distributed Word Representation in Tsetlin Machine}",
-  author={Rohan Kumar Yadav and Lei Jiao and Ole-Christoffer Granmo and Morten Goodwin},
-  journal = {arXiv preprint arXiv:2104.06901}, year = {2021},
-  url = {https://arxiv.org/abs/2104.06901}
 }
 ```
 
