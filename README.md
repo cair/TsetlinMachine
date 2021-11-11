@@ -206,6 +206,16 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@article{abeyrathna2021multistep,
+  author = {Abeyrathna, Kuruge Darshana and Granmo, Ole-Christoffer and Shafik, Rishad and Jiao, Lei and Wheeldon, Adrian and Yakovlev, Alex and Lei, Jie and     Goodwin, Morten},
+  title = {A multi-step finite-state automaton for arbitrarily deterministic Tsetlin Machine learning},
+  journal = {Expert Systems},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.12836},
+  year={2021}
+}
+```
+
+```bash
 @InProceedings{yadav2021dwr,
   title={Enhancing Interpretable Clauses Semantically using Pretrained Word Representation},
   author={Rohan Kumar Yadav and Lei Jiao and Ole-Christoffer Granmo and Morten Goodwin},
