@@ -207,10 +207,10 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 
 ```bash
 @article{saha2021disc,
-	author = {Saha, Rupsa and Granmo, Ole-Christoffer and Goodwin, Morten},
-	title = {Using Tsetlin Machine to discover interpretable rules in natural language processing applications},
-	journal = {Expert Systems},
-	url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.12873},
+  author = {Saha, Rupsa and Granmo, Ole-Christoffer and Goodwin, Morten},
+  title = {Using Tsetlin Machine to discover interpretable rules in natural language processing applications},
+  journal = {Expert Systems},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.12873},
   year={2021}
 }
 ```
