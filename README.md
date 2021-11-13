@@ -236,6 +236,15 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@article{jiao2021andorconvergence,
+  title={On the Convergence of Tsetlin Machines for the AND and the OR Operators},
+  author={Lei Jiao and Xuan Zhang and Ole-Christoffer Granmo},
+  journal = {arXiv preprint arXiv:2109.09488}, year = {2021},
+  url = {https://arxiv.org/abs/2109.09488}
+}
+```
+
+```bash
 @InProceedings{wheeldon2021self,
   title="{Self-Timed Reinforcement Learning using Tsetlin Machine}",
   author={Adrian Wheeldon and Alex Yakovlev and Rishad Shafik},
