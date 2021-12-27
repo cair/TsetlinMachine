@@ -171,7 +171,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 
 ## Hardware
 
-* Mignon AI, http://mignon.ai
+* Mignon AI, https://www.electronicsweekly.com/news/research-news/low-power-ai-alternative-neural-networks-2020-07/
 
 ## Books
 
