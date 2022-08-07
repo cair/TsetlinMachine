@@ -207,6 +207,23 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
+@inproceedings{yadav2022robust,
+  title     = {Robust Interpretable Text Classification against Spurious Correlations Using AND-rules with Negation},
+  author    = {Yadav, Rohan Kumar and Jiao, Lei and Granmo, Ole-Christoffer and Goodwin, Morten},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI-22}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  editor    = {Lud De Raedt},
+  pages     = {4439--4446},
+  year      = {2022},
+  month     = {7},
+  note      = {Main Track}
+  doi       = {10.24963/ijcai.2022/616},
+  url       = {https://doi.org/10.24963/ijcai.2022/616},
+}
+```
+
+```bash
 @article{saha2021disc,
   author = {Saha, Rupsa and Granmo, Ole-Christoffer and Goodwin, Morten},
   title = {Using Tsetlin Machine to discover interpretable rules in natural language processing applications},
