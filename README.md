@@ -207,7 +207,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ## Tsetlin Machine Papers
 
 ```bash
-@inproceedings{yadav2022robust,
+@InProceedings{yadav2022robust,
   title     = {Robust Interpretable Text Classification against Spurious Correlations Using AND-rules with Negation},
   author    = {Yadav, Rohan Kumar and Jiao, Lei and Granmo, Ole-Christoffer and Goodwin, Morten},
   booktitle = {Proceedings of the Thirty-First International Joint Conference on
