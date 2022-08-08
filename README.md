@@ -162,6 +162,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 * C++ implementation, https://github.com/222464/TsetlinMachine
 * Node.js implementation, https://github.com/anon767/TsetlinMachine
 * C# implementation, https://github.com/cokobware/TsetlinMachineCSharp
+* F# implementation, https://github.com/fwaris/FsTsetlin
 
 ## Other Architectures
 
