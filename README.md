@@ -225,6 +225,35 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 ```
 
 ```bash
+@InProceedings{bhattarai2022fakenews,
+  author    = {Bhattarai, Bimal  and  Granmo, Ole-Christoffer  and  Jiao, Lei},
+  title     = {Explainable Tsetlin Machine Framework for Fake News Detection with Credibility Score Assessment},
+  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
+  month          = {June},
+  year           = {2022},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {4894--4903},
+  url       = {https://aclanthology.org/2022.lrec-1.523}
+}
+```
+
+```bash
+@InProceedings{bhattarai2022convtext,
+  author    = {Bhattarai, Bimal  and  Granmo, Ole-Christoffer  and  Jiao, Lei},
+  title     = {ConvTextTM: An Explainable Convolutional Tsetlin Machine Framework for Text Classification},
+  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
+  month          = {June},
+  year           = {2022},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {3761--3770},
+  url       = {https://aclanthology.org/2022.lrec-1.401}
+}
+```
+
+
+```bash
 @article{saha2021disc,
   author = {Saha, Rupsa and Granmo, Ole-Christoffer and Goodwin, Morten},
   title = {Using Tsetlin Machine to discover interpretable rules in natural language processing applications},
