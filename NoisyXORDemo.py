@@ -36,7 +36,7 @@ tsetlin_machine = MultiClassTsetlinMachine.MultiClassTsetlinMachine(number_of_cl
 # Training of the Tsetlin Machine in batch mode. The Tsetlin Machine can also be trained online
 tsetlin_machine.fit(X_training, y_training, y_training.shape[0], epochs=epochs)
 
-# Some performacne statistics
+# Some performance statistics
 
 print "Accuracy on test data (no noise):", tsetlin_machine.evaluate(X_test, y_test, y_test.shape[0])
 print "Accuracy on training data (40% noise):", tsetlin_machine.evaluate(X_training, y_training, y_training.shape[0])
