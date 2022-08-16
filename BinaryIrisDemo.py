@@ -48,7 +48,7 @@ for ensemble in xrange(ensemble_size):
 	# Training of the Tsetlin Machine in batch mode. The Tsetlin Machine can also be trained online
 	tsetlin_machine.fit(X_training, y_training, y_training.shape[0], epochs=epochs)
 
-	# Some performacne statistics
+	# Some performance statistics
 	accuracy_test[ensemble] = tsetlin_machine.evaluate(X_test, y_test, y_test.shape[0])
 	accuracy_training[ensemble] = tsetlin_machine.evaluate(X_training, y_training, y_training.shape[0])
 
