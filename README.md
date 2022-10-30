@@ -19,6 +19,7 @@ Code and datasets for the Tsetlin Machine. Implements the Tsetlin Machine from h
 - [Other Architectures](#other-architectures)
 - [Hardware](#hardware)
 - [Books](#books)
+- [Conferences](#conferences)
 - [Videos](#videos)
 - [Tutorials](#tutorials)
 - [Acknowledgements](#acknowledgements)
@@ -174,11 +175,15 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 
 ## Hardware
 
-* Mignon AI, https://www.electronicsweekly.com/news/research-news/low-power-ai-alternative-neural-networks-2020-07/
+* [Mignon AI](https://www.electronicsweekly.com/news/research-news/low-power-ai-alternative-neural-networks-2020-07/)
 
 ## Books
 
-* An Introduction to Tsetlin Machines, https://tsetlinmachine.org
+* [An Introduction to Tsetlin Machines](https://tsetlinmachine.org)
+
+## Conferences
+
+* [International Symposium on the Tsetlin Machine (ISTM)](https://istm.no) [Proceedings [2022](https://ieeexplore.ieee.org/xpl/conhome/9923753/proceeding)]
 
 ## Videos
 
