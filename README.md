@@ -147,7 +147,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 
 ## Other Implementations
 
-* Tsetlin Machine Unified - One Codebase to Rule Them All. Implements the Tsetlin Machine, Coalesced Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features, drop clause, Type III Feedback, focused negative sampling, multi-task classifier, autoencoder, literal budget, and one-vs-one multi-class classifier. TMU is written in Python with wrappers for C and CUDA-based clause evaluation and updating, https://github.com/cair/tmu, https://pypi.org/project/tmu2/
+* Tsetlin Machine Unified - One Codebase to Rule Them All. Implements the Tsetlin Machine, Coalesced Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features, drop clause, Type III Feedback, focused negative sampling, multi-task classifier, autoencoder, literal budget, and one-vs-one multi-class classifier. TMU is written in Python with wrappers for C and CUDA-based clause evaluation and updating, https://github.com/cair/tmu, https://pypi.org/project/tmu/
 * Massively Parallel and Asynchronous Architecture for Logic-based AI. Implements the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features, https://github.com/cair/PyTsetlinMachineCUDA, https://pypi.org/project/PyTsetlinMachineCUDA/
 * High-level Tsetlin Machine Python API with fast C-extensions. Implements the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, Weighted Tsetlin Machine, and Embedding Tsetlin Machine, with support for continuous features, multi-granular clauses, and clause indexing, https://github.com/cair/pyTsetlinMachine, https://pypi.org/project/pyTsetlinMachine/
 * Multi-threaded implementation of the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features and multi-granular clauses, https://github.com/cair/pyTsetlinMachineParallel, https://pypi.org/project/pyTsetlinMachineParallel/
@@ -699,7 +699,7 @@ I thank my colleagues from the Centre for Artificial Intelligence Research (CAIR
 
 ## Licence
 
-Copyright (c) 2022 Ole-Christoffer Granmo
+Copyright (c) 2023 Ole-Christoffer Granmo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
