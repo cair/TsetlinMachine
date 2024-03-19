@@ -184,7 +184,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 
 ## Conferences
 
-* [International Symposium on the Tsetlin Machine (ISTM)](https://istm.no) [Proceedings [2022](https://ieeexplore.ieee.org/xpl/conhome/9923753/proceeding)]
+* [International Symposium on the Tsetlin Machine (ISTM)](https://istm.no) [Proceedings [2022](https://ieeexplore.ieee.org/xpl/conhome/9923753/proceeding), [2023](https://ieeexplore.ieee.org/xpl/conhome/10454903/proceeding)]
 
 ## Videos
 
