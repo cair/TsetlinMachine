@@ -151,6 +151,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 * Massively Parallel and Asynchronous Architecture for Logic-based AI. Implements the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features, https://github.com/cair/PyTsetlinMachineCUDA, https://pypi.org/project/PyTsetlinMachineCUDA/
 * High-level Tsetlin Machine Python API with fast C-extensions. Implements the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, Weighted Tsetlin Machine, and Embedding Tsetlin Machine, with support for continuous features, multi-granular clauses, and clause indexing, https://github.com/cair/pyTsetlinMachine, https://pypi.org/project/pyTsetlinMachine/
 * Multi-threaded implementation of the Tsetlin Machine, Convolutional Tsetlin Machine, Regression Tsetlin Machine, and Weighted Tsetlin Machine, with support for continuous features and multi-granular clauses, https://github.com/cair/pyTsetlinMachineParallel, https://pypi.org/project/pyTsetlinMachineParallel/
+* High-performance Tsetlin Machine implementation in Julia with batching and low-level parallelization (52 million classifications per second on MNIST), https://github.com/BooBSD/Tsetlin.jl
 * Class-parallel Tsetlin Machine in C with logging support, https://github.com/ashurrafiev/ClassParallelTM
 * GUI application for visualising Tsetlin machine states and learning process, https://github.com/ashurrafiev/TsetlinMachineViewer
 * Fast C++ implementation of the Weighted Tsetlin Machine with MNIST-, IMDb-, and Connect-4 demos, https://github.com/adrianphoulady/weighted-tsetlin-machine-cpp
@@ -176,7 +177,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 
 ## Hardware
 
-* [Mignon AI](https://www.electronicsweekly.com/news/research-news/low-power-ai-alternative-neural-networks-2020-07/)
+* [Literal Labs](https://www.literal-labs.ai)
 
 ## Books
 
