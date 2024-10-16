@@ -171,6 +171,7 @@ Prediction: x1 = 1, x2 = 1, ... -> y =  0
 ## Other Architectures
 
 * The Convolutional Tsetlin Machine, https://github.com/cair/convolutional-tsetlin-machine
+* The Graph Tsetlin Machine, https://github.com/cair/GraphTsetlinMachine
 * The Regression Tsetlin Machine, https://github.com/cair/regression-tsetlin-machine
 * Coalesced Multi-Output Tsetlin Machine, https://github.com/cair/PyCoalescedTsetlinMachineCUDA/
 * Massively Parallel and Asynchronous Architecture for Logic-based AI, https://github.com/cair/PyTsetlinMachineCUDA
